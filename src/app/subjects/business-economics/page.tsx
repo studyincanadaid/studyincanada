@@ -381,7 +381,7 @@ export default function BusinessEconomicsPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="border border-border rounded-lg p-6">
               <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[#1BB685] text-white flex items-center justify-center font-bold">
+                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[#C8102E] text-white flex items-center justify-center font-bold">
                   1
                 </div>
                 <div className="flex-1">
@@ -397,7 +397,7 @@ export default function BusinessEconomicsPage() {
             
             <div className="border border-border rounded-lg p-6">
               <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[#1BB685] text-white flex items-center justify-center font-bold">
+                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[#C8102E] text-white flex items-center justify-center font-bold">
                   2
                 </div>
                 <div className="flex-1">
@@ -413,7 +413,7 @@ export default function BusinessEconomicsPage() {
             
             <div className="border border-border rounded-lg p-6">
               <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[#1BB685] text-white flex items-center justify-center font-bold">
+                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[#C8102E] text-white flex items-center justify-center font-bold">
                   3
                 </div>
                 <div className="flex-1">
@@ -430,7 +430,7 @@ export default function BusinessEconomicsPage() {
           
           <div className="mt-8 text-center">
             <Link href="/how-it-works/apply">
-              <Button size="lg" className="bg-[#1BB685] hover:bg-[#1BB685]/90 text-white">
+              <Button size="lg" className="bg-[#C8102E] hover:bg-[#C8102E]/90 text-white">
                 Learn More About Applying
               </Button>
             </Link>
@@ -542,7 +542,7 @@ export default function BusinessEconomicsPage() {
                       />
                     </div>
                     <div className="p-4">
-                      <h3 className="text-lg font-bold text-[#424242] group-hover:text-[#1BB685] transition-colors">
+                      <h3 className="text-lg font-bold text-[#424242] group-hover:text-[#C8102E] transition-colors">
                         {subject.title}
                       </h3>
                     </div>
@@ -568,7 +568,7 @@ export default function BusinessEconomicsPage() {
                       />
                     </div>
                     <div className="p-4">
-                      <h3 className="text-lg font-bold text-[#424242] group-hover:text-[#1BB685] transition-colors">
+                      <h3 className="text-lg font-bold text-[#424242] group-hover:text-[#C8102E] transition-colors">
                         {subject.title}
                       </h3>
                     </div>
@@ -582,4 +582,5 @@ export default function BusinessEconomicsPage() {
     </div>
   )
 }
+
 

@@ -1,8 +1,8 @@
 // Authentication utility with backend API integration
 
-const AUTH_KEY = "bideshstudy_auth"
-const AUTH_USER_KEY = "bideshstudy_user"
-const AUTH_TOKEN_KEY = "bideshstudy_token"
+const AUTH_KEY = "studyincanada_auth"
+const AUTH_USER_KEY = "studyincanada_user"
+const AUTH_TOKEN_KEY = "studyincanada_token"
 // Use Next.js API routes as proxy to avoid CORS issues
 const API_BASE_URL = typeof window !== "undefined" ? window.location.origin : ""
 

@@ -183,7 +183,7 @@ export default function ProfilePage() {
     return (
       <div className="min-h-[calc(100vh-200px)] flex items-center justify-center py-12 px-4">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#1BB685] mx-auto mb-4"></div>
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#C8102E] mx-auto mb-4"></div>
           <p className="text-lg text-muted-foreground">Loading profile...</p>
         </div>
       </div>
@@ -212,10 +212,10 @@ export default function ProfilePage() {
         </div>
 
         {/* User Information Card */}
-        <Card className="border-2 shadow-lg bg-gradient-to-br from-[#1BB685]/5 to-[#0D9488]/5">
+        <Card className="border-2 shadow-lg bg-gradient-to-br from-[#C8102E]/5 to-[#0D9488]/5">
           <CardHeader>
             <CardTitle className="text-xl text-[#424242] flex items-center gap-2">
-              <User className="h-5 w-5 text-[#1BB685]" />
+              <User className="h-5 w-5 text-[#C8102E]" />
               User Information
             </CardTitle>
           </CardHeader>
@@ -262,11 +262,11 @@ export default function ProfilePage() {
         </Card>
 
         {/* Profile Completion Card */}
-        <Card className="border-2 shadow-lg bg-gradient-to-r from-[#1BB685]/10 to-[#0D9488]/10">
+        <Card className="border-2 shadow-lg bg-gradient-to-r from-[#C8102E]/10 to-[#0D9488]/10">
           <CardContent className="pt-6">
             <div className="flex items-center justify-between mb-4">
               <div className="flex items-center gap-3">
-                <TrendingUp className="h-6 w-6 text-[#1BB685]" />
+                <TrendingUp className="h-6 w-6 text-[#C8102E]" />
                 <div>
                   <h3 className="font-semibold text-lg text-[#424242]">
                     Profile Completion
@@ -277,7 +277,7 @@ export default function ProfilePage() {
                 </div>
               </div>
               <div className="text-right">
-                <div className="text-3xl font-bold text-[#1BB685]">
+                <div className="text-3xl font-bold text-[#C8102E]">
                   {completionPercentage}%
                 </div>
                 <div className="text-xs text-muted-foreground">Complete</div>
@@ -285,7 +285,7 @@ export default function ProfilePage() {
             </div>
             <div className="w-full bg-gray-200 rounded-full h-3">
               <div
-                className="bg-gradient-to-r from-[#1BB685] to-[#0D9488] h-3 rounded-full transition-all duration-500"
+                className="bg-gradient-to-r from-[#C8102E] to-[#0D9488] h-3 rounded-full transition-all duration-500"
                 style={{ width: `${completionPercentage}%` }}
               />
             </div>
@@ -318,7 +318,7 @@ export default function ProfilePage() {
                 {/* SSC */}
                 <div className="space-y-2">
                   <Label htmlFor="ssc" className="text-[#424242] font-medium flex items-center gap-2">
-                    <GraduationCap className="h-4 w-4 text-[#1BB685]" />
+                    <GraduationCap className="h-4 w-4 text-[#C8102E]" />
                     SSC (Secondary School Certificate)
                   </Label>
                   <Input
@@ -338,7 +338,7 @@ export default function ProfilePage() {
                 {/* HSC */}
                 <div className="space-y-2">
                   <Label htmlFor="hsc" className="text-[#424242] font-medium flex items-center gap-2">
-                    <GraduationCap className="h-4 w-4 text-[#1BB685]" />
+                    <GraduationCap className="h-4 w-4 text-[#C8102E]" />
                     HSC (Higher Secondary Certificate)
                   </Label>
                   <Input
@@ -358,7 +358,7 @@ export default function ProfilePage() {
                 {/* BSc */}
                 <div className="space-y-2">
                   <Label htmlFor="bsc" className="text-[#424242] font-medium flex items-center gap-2">
-                    <BookOpen className="h-4 w-4 text-[#1BB685]" />
+                    <BookOpen className="h-4 w-4 text-[#C8102E]" />
                     BSc (Bachelor of Science)
                   </Label>
                   <Input
@@ -378,7 +378,7 @@ export default function ProfilePage() {
                 {/* MSc */}
                 <div className="space-y-2">
                   <Label htmlFor="msc" className="text-[#424242] font-medium flex items-center gap-2">
-                    <Award className="h-4 w-4 text-[#1BB685]" />
+                    <Award className="h-4 w-4 text-[#C8102E]" />
                     MSc (Master of Science)
                   </Label>
                   <Input
@@ -399,7 +399,7 @@ export default function ProfilePage() {
               {/* Projects */}
               <div className="space-y-2">
                 <Label htmlFor="projects" className="text-[#424242] font-medium flex items-center gap-2">
-                  <Briefcase className="h-4 w-4 text-[#1BB685]" />
+                  <Briefcase className="h-4 w-4 text-[#C8102E]" />
                   Projects
                 </Label>
                 <textarea
@@ -419,7 +419,7 @@ export default function ProfilePage() {
               <div className="flex gap-4 pt-4">
                 <Button
                   type="submit"
-                  className="flex-1 h-12 text-base font-semibold bg-[#1BB685] hover:bg-[#1BB685]/90 text-white transition-colors"
+                  className="flex-1 h-12 text-base font-semibold bg-[#C8102E] hover:bg-[#C8102E]/90 text-white transition-colors"
                   disabled={isSaving}
                 >
                   {isSaving ? (
@@ -460,3 +460,4 @@ export default function ProfilePage() {
     </div>
   )
 }
+

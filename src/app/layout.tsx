@@ -6,6 +6,7 @@ import Navbar from "@/components/shared/Navbar";
 import Footer from "@/components/shared/Footer";
 import { SocialCard } from "@/components/social-card";
 import { AuthProviderWrapper } from "@/components/providers/AuthProviderWrapper";
+import { WhatsAppWidget } from "@/components/WhatsAppWidget";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,12 +19,38 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "BideshStudy - Study Abroad Programs",
-  description: "Your gateway to quality education and learning opportunities worldwide",
+  title: "StudyinCanada.ID - Study Abroad Programs",
+  description: "Your gateway to quality education and learning opportunities worldwide. StudyinCanada.ID - Expert study abroad guidance for Indonesian students",
+  keywords: "study abroad, education, international students, Canada, StudyinCanada.ID",
+  authors: [{ name: "StudyinCanada.ID" }],
+  creator: "StudyinCanada.ID",
+  publisher: "StudyinCanada.ID",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
     apple: "/favicon.ico",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://studyincanada.id",
+    siteName: "StudyinCanada.ID",
+    title: "StudyinCanada.ID - Study Abroad Programs",
+    description: "Your gateway to quality education and learning opportunities worldwide",
+    images: [
+      {
+        url: "https://studyincanada.id/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "StudyinCanada.ID",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "StudyinCanada.ID - Study Abroad Programs",
+    description: "Your gateway to quality education and learning opportunities worldwide",
+    creator: "@StudyinCanadaID",
   },
 };
 
@@ -44,6 +71,7 @@ export default function RootLayout({
           {children}
           </main>
           <SocialCard />
+          <WhatsAppWidget />
           <Footer/>
         </AuthProviderWrapper>
         {/* Cloudinary Upload Widget */}
@@ -55,3 +83,4 @@ export default function RootLayout({
     </html>
   );
 }
+

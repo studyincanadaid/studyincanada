@@ -8,7 +8,7 @@ export default function NotFound() {
       <div className="max-w-2xl w-full text-center space-y-8">
         {/* 404 Number */}
         <div className="space-y-4">
-          <h1 className="text-8xl md:text-9xl font-bold text-[#1BB685] opacity-20">
+          <h1 className="text-8xl md:text-9xl font-bold text-[#C8102E] opacity-20">
             404
           </h1>
           <h2 className="text-3xl md:text-4xl font-bold text-[#424242] -mt-8 md:-mt-12">
@@ -31,7 +31,7 @@ export default function NotFound() {
           <Link href="/">
             <Button 
               size="lg" 
-              className="bg-[#1BB685] hover:bg-[#1BB685]/90 text-white px-8 py-6 text-base font-semibold"
+              className="bg-[#C8102E] hover:bg-[#C8102E]/90 text-white px-8 py-6 text-base font-semibold"
             >
               <Home className="mr-2 h-5 w-5" />
               Back to Home
@@ -41,7 +41,7 @@ export default function NotFound() {
             <Button 
               size="lg" 
               variant="outline"
-              className="border-2 border-[#1BB685] text-[#1BB685] hover:bg-[#1BB685]/10 px-8 py-6 text-base font-semibold"
+              className="border-2 border-[#C8102E] text-[#C8102E] hover:bg-[#C8102E]/10 px-8 py-6 text-base font-semibold"
             >
               <Search className="mr-2 h-5 w-5" />
               Search Programs
@@ -57,31 +57,31 @@ export default function NotFound() {
           <div className="flex flex-wrap justify-center gap-4">
             <Link 
               href="/programs" 
-              className="text-[#1BB685] hover:text-[#1BB685]/80 underline underline-offset-4 text-sm font-medium"
+              className="text-[#C8102E] hover:text-[#C8102E]/80 underline underline-offset-4 text-sm font-medium"
             >
               Programs
             </Link>
             <Link 
               href="/destinations" 
-              className="text-[#1BB685] hover:text-[#1BB685]/80 underline underline-offset-4 text-sm font-medium"
+              className="text-[#C8102E] hover:text-[#C8102E]/80 underline underline-offset-4 text-sm font-medium"
             >
               Destinations
             </Link>
             <Link 
               href="/subjects/art-design" 
-              className="text-[#1BB685] hover:text-[#1BB685]/80 underline underline-offset-4 text-sm font-medium"
+              className="text-[#C8102E] hover:text-[#C8102E]/80 underline underline-offset-4 text-sm font-medium"
             >
               Subjects
             </Link>
             <Link 
               href="/scholarships" 
-              className="text-[#1BB685] hover:text-[#1BB685]/80 underline underline-offset-4 text-sm font-medium"
+              className="text-[#C8102E] hover:text-[#C8102E]/80 underline underline-offset-4 text-sm font-medium"
             >
               Scholarships
             </Link>
             <Link 
               href="/about" 
-              className="text-[#1BB685] hover:text-[#1BB685]/80 underline underline-offset-4 text-sm font-medium"
+              className="text-[#C8102E] hover:text-[#C8102E]/80 underline underline-offset-4 text-sm font-medium"
             >
               About Us
             </Link>
@@ -91,4 +91,5 @@ export default function NotFound() {
     </div>
   )
 }
+
 

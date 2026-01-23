@@ -133,7 +133,7 @@ function LoginForm() {
                   <input
                     id="remember"
                     type="checkbox"
-                    className="h-4 w-4 rounded border-gray-300 text-[#1BB685] focus:ring-[#1BB685]"
+                    className="h-4 w-4 rounded border-gray-300 text-[#C8102E] focus:ring-[#C8102E]"
                   />
                   <Label
                     htmlFor="remember"
@@ -144,7 +144,7 @@ function LoginForm() {
                 </div>
                 <Link
                   href="/forgot-password"
-                  className="text-sm text-[#1BB685] hover:text-[#1BB685]/80 font-medium transition-colors"
+                  className="text-sm text-[#C8102E] hover:text-[#C8102E]/80 font-medium transition-colors"
                 >
                   Forgot password?
                 </Link>
@@ -152,7 +152,7 @@ function LoginForm() {
 
               <Button
                 type="submit"
-                className="w-full h-12 text-base font-semibold bg-[#1BB685] hover:bg-[#1BB685]/90 text-white transition-colors"
+                className="w-full h-12 text-base font-semibold bg-[#C8102E] hover:bg-[#C8102E]/90 text-white transition-colors"
                 disabled={isLoading}
               >
                 {isLoading ? "Signing in..." : "Sign In"}
@@ -212,7 +212,7 @@ function LoginForm() {
               <span className="text-[#424242]">Don't have an account? </span>
               <Link
                 href="/signup"
-                className="text-[#1BB685] hover:text-[#1BB685]/80 font-semibold transition-colors"
+                className="text-[#C8102E] hover:text-[#C8102E]/80 font-semibold transition-colors"
               >
                 Sign up
               </Link>
@@ -237,3 +237,4 @@ export default function LoginPage() {
     </Suspense>
   )
 }
+

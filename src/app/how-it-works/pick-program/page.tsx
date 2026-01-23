@@ -27,7 +27,7 @@ export default function HowToPickAProgramPage() {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-[#1BB685]/10 via-background to-background border-b border-border">
+      <div className="bg-gradient-to-br from-[#C8102E]/10 via-background to-background border-b border-border">
         <div className="max-w-6xl mx-auto px-4 py-12 md:py-16">
           <div className="text-center mb-8">
             <h1 className="text-4xl md:text-5xl font-bold text-[#424242] mb-4">
@@ -62,7 +62,7 @@ export default function HowToPickAProgramPage() {
         {/* Key Factors to Consider */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-[#424242] mb-6 flex items-center gap-3">
-            <Compass className="h-8 w-8 text-[#1BB685]" />
+            <Compass className="h-8 w-8 text-[#C8102E]" />
             Key Factors to Consider
           </h2>
           
@@ -70,8 +70,8 @@ export default function HowToPickAProgramPage() {
             {/* Factor 1: Academic Goals */}
             <Card className="border-border hover:shadow-lg transition-shadow">
               <CardHeader>
-                <div className="w-12 h-12 rounded-full bg-[#1BB685]/10 flex items-center justify-center mb-4">
-                  <GraduationCap className="h-6 w-6 text-[#1BB685]" />
+                <div className="w-12 h-12 rounded-full bg-[#C8102E]/10 flex items-center justify-center mb-4">
+                  <GraduationCap className="h-6 w-6 text-[#C8102E]" />
                 </div>
                 <CardTitle className="text-xl">Academic Goals</CardTitle>
               </CardHeader>
@@ -82,19 +82,19 @@ export default function HowToPickAProgramPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>Course availability and quality</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>Credit transfer policies</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>Language of instruction</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>University rankings and reputation</span>
                   </li>
                 </ul>
@@ -104,8 +104,8 @@ export default function HowToPickAProgramPage() {
             {/* Factor 2: Location */}
             <Card className="border-border hover:shadow-lg transition-shadow">
               <CardHeader>
-                <div className="w-12 h-12 rounded-full bg-[#1BB685]/10 flex items-center justify-center mb-4">
-                  <MapPin className="h-6 w-6 text-[#1BB685]" />
+                <div className="w-12 h-12 rounded-full bg-[#C8102E]/10 flex items-center justify-center mb-4">
+                  <MapPin className="h-6 w-6 text-[#C8102E]" />
                 </div>
                 <CardTitle className="text-xl">Location</CardTitle>
               </CardHeader>
@@ -116,19 +116,19 @@ export default function HowToPickAProgramPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>Cultural fit and comfort level</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>Cost of living</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>Safety and security</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>Travel opportunities</span>
                   </li>
                 </ul>
@@ -138,8 +138,8 @@ export default function HowToPickAProgramPage() {
             {/* Factor 3: Budget */}
             <Card className="border-border hover:shadow-lg transition-shadow">
               <CardHeader>
-                <div className="w-12 h-12 rounded-full bg-[#1BB685]/10 flex items-center justify-center mb-4">
-                  <DollarSign className="h-6 w-6 text-[#1BB685]" />
+                <div className="w-12 h-12 rounded-full bg-[#C8102E]/10 flex items-center justify-center mb-4">
+                  <DollarSign className="h-6 w-6 text-[#C8102E]" />
                 </div>
                 <CardTitle className="text-xl">Budget</CardTitle>
               </CardHeader>
@@ -150,19 +150,19 @@ export default function HowToPickAProgramPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>Tuition and program fees</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>Living expenses</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>Scholarship availability</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>Hidden costs and fees</span>
                   </li>
                 </ul>
@@ -172,8 +172,8 @@ export default function HowToPickAProgramPage() {
             {/* Factor 4: Program Duration */}
             <Card className="border-border hover:shadow-lg transition-shadow">
               <CardHeader>
-                <div className="w-12 h-12 rounded-full bg-[#1BB685]/10 flex items-center justify-center mb-4">
-                  <Calendar className="h-6 w-6 text-[#1BB685]" />
+                <div className="w-12 h-12 rounded-full bg-[#C8102E]/10 flex items-center justify-center mb-4">
+                  <Calendar className="h-6 w-6 text-[#C8102E]" />
                 </div>
                 <CardTitle className="text-xl">Program Duration</CardTitle>
               </CardHeader>
@@ -184,19 +184,19 @@ export default function HowToPickAProgramPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>Semester (4-5 months)</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>Academic Year (8-10 months)</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>Summer/Winter Programs (4-8 weeks)</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>Full Degree Programs</span>
                   </li>
                 </ul>
@@ -206,8 +206,8 @@ export default function HowToPickAProgramPage() {
             {/* Factor 5: Support Services */}
             <Card className="border-border hover:shadow-lg transition-shadow">
               <CardHeader>
-                <div className="w-12 h-12 rounded-full bg-[#1BB685]/10 flex items-center justify-center mb-4">
-                  <Users className="h-6 w-6 text-[#1BB685]" />
+                <div className="w-12 h-12 rounded-full bg-[#C8102E]/10 flex items-center justify-center mb-4">
+                  <Users className="h-6 w-6 text-[#C8102E]" />
                 </div>
                 <CardTitle className="text-xl">Support Services</CardTitle>
               </CardHeader>
@@ -218,19 +218,19 @@ export default function HowToPickAProgramPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>Pre-departure orientation</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>On-site program coordinator</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>Housing assistance</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>Emergency support</span>
                   </li>
                 </ul>
@@ -240,8 +240,8 @@ export default function HowToPickAProgramPage() {
             {/* Factor 6: Field of Study */}
             <Card className="border-border hover:shadow-lg transition-shadow">
               <CardHeader>
-                <div className="w-12 h-12 rounded-full bg-[#1BB685]/10 flex items-center justify-center mb-4">
-                  <BookOpen className="h-6 w-6 text-[#1BB685]" />
+                <div className="w-12 h-12 rounded-full bg-[#C8102E]/10 flex items-center justify-center mb-4">
+                  <BookOpen className="h-6 w-6 text-[#C8102E]" />
                 </div>
                 <CardTitle className="text-xl">Field of Study</CardTitle>
               </CardHeader>
@@ -252,19 +252,19 @@ export default function HowToPickAProgramPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>Engineering & Technology</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>Business & Economics</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>Arts & Humanities</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>Natural & Applied Sciences</span>
                   </li>
                 </ul>
@@ -285,7 +285,7 @@ export default function HowToPickAProgramPage() {
               <CardContent className="p-6">
                 <div className="flex gap-4">
                   <div className="flex-shrink-0">
-                    <div className="w-12 h-12 rounded-full bg-[#1BB685] text-white flex items-center justify-center font-bold text-xl">
+                    <div className="w-12 h-12 rounded-full bg-[#C8102E] text-white flex items-center justify-center font-bold text-xl">
                       1
                     </div>
                   </div>
@@ -298,19 +298,19 @@ export default function HowToPickAProgramPage() {
                     </p>
                     <ul className="space-y-2 text-muted-foreground">
                       <li className="flex items-start gap-2">
-                        <ArrowRight className="h-4 w-4 text-[#1BB685] mt-1 flex-shrink-0" />
+                        <ArrowRight className="h-4 w-4 text-[#C8102E] mt-1 flex-shrink-0" />
                         <span>Improve language skills?</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <ArrowRight className="h-4 w-4 text-[#1BB685] mt-1 flex-shrink-0" />
+                        <ArrowRight className="h-4 w-4 text-[#C8102E] mt-1 flex-shrink-0" />
                         <span>Explore a specific career field?</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <ArrowRight className="h-4 w-4 text-[#1BB685] mt-1 flex-shrink-0" />
+                        <ArrowRight className="h-4 w-4 text-[#C8102E] mt-1 flex-shrink-0" />
                         <span>Experience a new culture?</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <ArrowRight className="h-4 w-4 text-[#1BB685] mt-1 flex-shrink-0" />
+                        <ArrowRight className="h-4 w-4 text-[#C8102E] mt-1 flex-shrink-0" />
                         <span>Build your resume with international experience?</span>
                       </li>
                     </ul>
@@ -324,7 +324,7 @@ export default function HowToPickAProgramPage() {
               <CardContent className="p-6">
                 <div className="flex gap-4">
                   <div className="flex-shrink-0">
-                    <div className="w-12 h-12 rounded-full bg-[#1BB685] text-white flex items-center justify-center font-bold text-xl">
+                    <div className="w-12 h-12 rounded-full bg-[#C8102E] text-white flex items-center justify-center font-bold text-xl">
                       2
                     </div>
                   </div>
@@ -337,19 +337,19 @@ export default function HowToPickAProgramPage() {
                     </p>
                     <ul className="space-y-2 text-muted-foreground">
                       <li className="flex items-start gap-2">
-                        <ArrowRight className="h-4 w-4 text-[#1BB685] mt-1 flex-shrink-0" />
+                        <ArrowRight className="h-4 w-4 text-[#C8102E] mt-1 flex-shrink-0" />
                         <span>Destination country or region</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <ArrowRight className="h-4 w-4 text-[#1BB685] mt-1 flex-shrink-0" />
+                        <ArrowRight className="h-4 w-4 text-[#C8102E] mt-1 flex-shrink-0" />
                         <span>Field of study</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <ArrowRight className="h-4 w-4 text-[#1BB685] mt-1 flex-shrink-0" />
+                        <ArrowRight className="h-4 w-4 text-[#C8102E] mt-1 flex-shrink-0" />
                         <span>Program duration (semester, year, summer)</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <ArrowRight className="h-4 w-4 text-[#1BB685] mt-1 flex-shrink-0" />
+                        <ArrowRight className="h-4 w-4 text-[#C8102E] mt-1 flex-shrink-0" />
                         <span>Budget range</span>
                       </li>
                     </ul>
@@ -363,7 +363,7 @@ export default function HowToPickAProgramPage() {
               <CardContent className="p-6">
                 <div className="flex gap-4">
                   <div className="flex-shrink-0">
-                    <div className="w-12 h-12 rounded-full bg-[#1BB685] text-white flex items-center justify-center font-bold text-xl">
+                    <div className="w-12 h-12 rounded-full bg-[#C8102E] text-white flex items-center justify-center font-bold text-xl">
                       3
                     </div>
                   </div>
@@ -376,19 +376,19 @@ export default function HowToPickAProgramPage() {
                     </p>
                     <ul className="space-y-2 text-muted-foreground">
                       <li className="flex items-start gap-2">
-                        <ArrowRight className="h-4 w-4 text-[#1BB685] mt-1 flex-shrink-0" />
+                        <ArrowRight className="h-4 w-4 text-[#C8102E] mt-1 flex-shrink-0" />
                         <span>Cost breakdown and value</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <ArrowRight className="h-4 w-4 text-[#1BB685] mt-1 flex-shrink-0" />
+                        <ArrowRight className="h-4 w-4 text-[#C8102E] mt-1 flex-shrink-0" />
                         <span>Course offerings and quality</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <ArrowRight className="h-4 w-4 text-[#1BB685] mt-1 flex-shrink-0" />
+                        <ArrowRight className="h-4 w-4 text-[#C8102E] mt-1 flex-shrink-0" />
                         <span>Support services provided</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <ArrowRight className="h-4 w-4 text-[#1BB685] mt-1 flex-shrink-0" />
+                        <ArrowRight className="h-4 w-4 text-[#C8102E] mt-1 flex-shrink-0" />
                         <span>Student reviews and testimonials</span>
                       </li>
                     </ul>
@@ -402,7 +402,7 @@ export default function HowToPickAProgramPage() {
               <CardContent className="p-6">
                 <div className="flex gap-4">
                   <div className="flex-shrink-0">
-                    <div className="w-12 h-12 rounded-full bg-[#1BB685] text-white flex items-center justify-center font-bold text-xl">
+                    <div className="w-12 h-12 rounded-full bg-[#C8102E] text-white flex items-center justify-center font-bold text-xl">
                       4
                     </div>
                   </div>
@@ -415,19 +415,19 @@ export default function HowToPickAProgramPage() {
                     </p>
                     <ul className="space-y-2 text-muted-foreground">
                       <li className="flex items-start gap-2">
-                        <ArrowRight className="h-4 w-4 text-[#1BB685] mt-1 flex-shrink-0" />
+                        <ArrowRight className="h-4 w-4 text-[#C8102E] mt-1 flex-shrink-0" />
                         <span>Verify credit transfer policies</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <ArrowRight className="h-4 w-4 text-[#1BB685] mt-1 flex-shrink-0" />
+                        <ArrowRight className="h-4 w-4 text-[#C8102E] mt-1 flex-shrink-0" />
                         <span>Understand application requirements</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <ArrowRight className="h-4 w-4 text-[#1BB685] mt-1 flex-shrink-0" />
+                        <ArrowRight className="h-4 w-4 text-[#C8102E] mt-1 flex-shrink-0" />
                         <span>Explore scholarship opportunities</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <ArrowRight className="h-4 w-4 text-[#1BB685] mt-1 flex-shrink-0" />
+                        <ArrowRight className="h-4 w-4 text-[#C8102E] mt-1 flex-shrink-0" />
                         <span>Address any concerns or questions</span>
                       </li>
                     </ul>
@@ -441,7 +441,7 @@ export default function HowToPickAProgramPage() {
               <CardContent className="p-6">
                 <div className="flex gap-4">
                   <div className="flex-shrink-0">
-                    <div className="w-12 h-12 rounded-full bg-[#1BB685] text-white flex items-center justify-center font-bold text-xl">
+                    <div className="w-12 h-12 rounded-full bg-[#C8102E] text-white flex items-center justify-center font-bold text-xl">
                       5
                     </div>
                   </div>
@@ -455,7 +455,7 @@ export default function HowToPickAProgramPage() {
                     </p>
                     <div className="mt-4">
                       <Link href="/programs">
-                        <Button className="bg-[#1BB685] hover:bg-[#1BB685]/90 text-white">
+                        <Button className="bg-[#C8102E] hover:bg-[#C8102E]/90 text-white">
                           <Search className="h-4 w-4 mr-2" />
                           Browse All Programs
                         </Button>
@@ -471,7 +471,7 @@ export default function HowToPickAProgramPage() {
         {/* Tips Section */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-[#424242] mb-6 flex items-center gap-3">
-            <Lightbulb className="h-8 w-8 text-[#1BB685]" />
+            <Lightbulb className="h-8 w-8 text-[#C8102E]" />
             Expert Tips
           </h2>
           
@@ -520,7 +520,7 @@ export default function HowToPickAProgramPage() {
 
         {/* CTA Section */}
         <section className="mb-12">
-          <div className="bg-gradient-to-r from-[#1BB685]/10 to-[#1BB685]/5 border border-[#1BB685]/20 rounded-lg p-8 md:p-12 text-center">
+          <div className="bg-gradient-to-r from-[#C8102E]/10 to-[#C8102E]/5 border border-[#C8102E]/20 rounded-lg p-8 md:p-12 text-center">
             <h2 className="text-2xl md:text-3xl font-bold text-[#424242] mb-4">
               Ready to Find Your Perfect Program?
             </h2>
@@ -530,7 +530,7 @@ export default function HowToPickAProgramPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/search">
-                <Button size="lg" className="bg-[#1BB685] hover:bg-[#1BB685]/90 text-white">
+                <Button size="lg" className="bg-[#C8102E] hover:bg-[#C8102E]/90 text-white">
                   <Search className="h-5 w-5 mr-2" />
                   Search Programs
                 </Button>
@@ -548,4 +548,5 @@ export default function HowToPickAProgramPage() {
     </div>
   )
 }
+
 

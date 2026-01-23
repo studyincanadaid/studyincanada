@@ -28,8 +28,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     const loadUser = () => {
       if (typeof window !== "undefined") {
-        const savedToken = localStorage.getItem("bideshstudy_token")
-        const savedUser = localStorage.getItem("bideshstudy_user")
+        const savedToken = localStorage.getItem("studyincanada_token")
+        const savedUser = localStorage.getItem("studyincanada_user")
         if (savedToken && savedUser && savedUser !== "undefined" && savedUser !== "null") {
           try {
             const parsedUser = JSON.parse(savedUser)
@@ -43,9 +43,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
           } catch (error) {
             console.error("Error parsing saved user:", error)
             // Clear invalid data
-            localStorage.removeItem("bideshstudy_token")
-            localStorage.removeItem("bideshstudy_user")
-            localStorage.removeItem("bideshstudy_auth")
+            localStorage.removeItem("studyincanada_token")
+            localStorage.removeItem("studyincanada_user")
+            localStorage.removeItem("studyincanada_auth")
             setToken(null)
             setUser(null)
           }
@@ -61,7 +61,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
     // Listen for storage changes (for cross-tab sync and immediate updates)
     const handleStorageChange = (e: StorageEvent) => {
-      if (e.key === "bideshstudy_token" || e.key === "bideshstudy_user" || e.key === "bideshstudy_auth") {
+      if (e.key === "studyincanada_token" || e.key === "studyincanada_user" || e.key === "studyincanada_auth") {
         loadUser()
       }
     }
@@ -179,9 +179,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     setUser(null)
     setToken(null)
     if (typeof window !== "undefined") {
-      localStorage.removeItem("bideshstudy_token")
-      localStorage.removeItem("bideshstudy_user")
-      localStorage.removeItem("bideshstudy_auth")
+      localStorage.removeItem("studyincanada_token")
+      localStorage.removeItem("studyincanada_user")
+      localStorage.removeItem("studyincanada_auth")
       // Dispatch events to notify all components of logout
       window.dispatchEvent(new Event("authStateChanged"))
       window.dispatchEvent(new Event("localStorageChange"))
@@ -204,4 +204,5 @@ export function useAuth() {
   }
   return context
 }
+
 

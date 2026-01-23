@@ -142,7 +142,7 @@ export default function SouthKoreaPage() {
               </p>
               <div className="flex justify-center">
                 <Link href="/destinations/south-korea/programs">
-                  <Button size="lg" className="w-full sm:w-auto bg-[#1BB685] hover:bg-[#1BB685]/90 text-white">
+                  <Button size="lg" className="w-full sm:w-auto bg-[#C8102E] hover:bg-[#C8102E]/90 text-white">
                     VIEW ALL AVAILABLE PROGRAMS
                   </Button>
                 </Link>
@@ -559,3 +559,4 @@ export default function SouthKoreaPage() {
     </div>
   )
 }
+

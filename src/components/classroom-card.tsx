@@ -52,3 +52,4 @@ export function ClassroomCard({ image, title, description, className = "" }: Cla
   )
 }
 
+

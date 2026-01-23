@@ -4,7 +4,7 @@ import { useState, useEffect, useMemo, Suspense } from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
-import { MapPin, Calendar, DollarSign, Clock, GraduationCap, Filter, X, ChevronDown, ChevronUp, Search } from 'lucide-react'
+import { MapPin, Calendar, DollarSign, Clock, GraduationCap, Filter, X, ChevronDown, ChevronUp, Search, MessageCircle } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 // Sample program images - you can replace these with actual images
@@ -26,7 +26,6 @@ type Program = {
   duration: string
   startDate: string
   image: any
-  price: string
 }
 
 // Sample programs data
@@ -45,7 +44,6 @@ const allPrograms: Program[] = [
     duration: '4 years',
     startDate: 'September 2024',
     image: universityTokyo,
-    price: '$15,000'
   },
   {
     id: '2',
@@ -61,7 +59,6 @@ const allPrograms: Program[] = [
     duration: '2 years',
     startDate: 'September 2024',
     image: wasedaUniversity,
-    price: '$25,000'
   },
   {
     id: '3',
@@ -77,7 +74,6 @@ const allPrograms: Program[] = [
     duration: '4 years',
     startDate: 'April 2025',
     image: kyotoUniversity,
-    price: '$8,000'
   },
   {
     id: '4',
@@ -93,7 +89,6 @@ const allPrograms: Program[] = [
     duration: '3 years',
     startDate: 'September 2024',
     image: universityTokyo,
-    price: '$30,000'
   },
   {
     id: '5',
@@ -109,7 +104,6 @@ const allPrograms: Program[] = [
     duration: '3 years',
     startDate: 'September 2024',
     image: wasedaUniversity,
-    price: '$18,000'
   },
   {
     id: '6',
@@ -125,7 +119,6 @@ const allPrograms: Program[] = [
     duration: '2 years',
     startDate: 'January 2025',
     image: kyotoUniversity,
-    price: '$35,000'
   },
   {
     id: '7',
@@ -141,7 +134,6 @@ const allPrograms: Program[] = [
     duration: '3 years',
     startDate: 'February 2025',
     image: universityTokyo,
-    price: '$9,000'
   },
   {
     id: '8',
@@ -157,7 +149,6 @@ const allPrograms: Program[] = [
     duration: '1 year',
     startDate: 'September 2024',
     image: wasedaUniversity,
-    price: '$12,000'
   },
   {
     id: '9',
@@ -173,7 +164,6 @@ const allPrograms: Program[] = [
     duration: '4 years',
     startDate: 'May 2025',
     image: kyotoUniversity,
-    price: '$4,500'
   },
   {
     id: '10',
@@ -189,7 +179,6 @@ const allPrograms: Program[] = [
     duration: '2 years',
     startDate: 'October 2024',
     image: universityTokyo,
-    price: '$7,500'
   },
   {
     id: '11',
@@ -205,7 +194,6 @@ const allPrograms: Program[] = [
     duration: '3 years',
     startDate: 'September 2024',
     image: wasedaUniversity,
-    price: '$16,000'
   },
   {
     id: '12',
@@ -221,7 +209,6 @@ const allPrograms: Program[] = [
     duration: '1 year',
     startDate: 'March 2025',
     image: kyotoUniversity,
-    price: '$6,000'
   },
   {
     id: '13',
@@ -237,7 +224,6 @@ const allPrograms: Program[] = [
     duration: '3 months',
     startDate: 'June 2025',
     image: universityTokyo,
-    price: '$7,500'
   },
   {
     id: '14',
@@ -253,7 +239,6 @@ const allPrograms: Program[] = [
     duration: '4 months',
     startDate: 'December 2024',
     image: wasedaUniversity,
-    price: '$15,000'
   },
 ]
 
@@ -526,9 +511,9 @@ function ProgramsPageContent() {
         type="checkbox"
         checked={checked}
         onChange={onChange}
-        className="w-4 h-4 text-teal-600 border-gray-300 rounded focus:ring-teal-500"
+        className="w-4 h-4 text-red-600 border-gray-300 rounded focus:ring-red-500"
       />
-      <span className="text-sm text-gray-700 group-hover:text-teal-600 transition-colors">
+      <span className="text-sm text-gray-700 group-hover:text-red-600 transition-colors">
         {label}
       </span>
     </label>
@@ -552,7 +537,7 @@ function ProgramsPageContent() {
                 placeholder="Search programs by title, university, destination, or field..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full pl-12 pr-12 py-4 border-2 border-gray-300 rounded-xl focus:ring-2 focus:ring-teal-500 focus:border-teal-500 outline-none text-gray-900 placeholder-gray-400 shadow-sm hover:border-gray-400 transition-colors"
+                className="w-full pl-12 pr-12 py-4 border-2 border-gray-300 rounded-xl focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none text-gray-900 placeholder-gray-400 shadow-sm hover:border-gray-400 transition-colors"
               />
               {searchQuery && (
                 <button
@@ -590,7 +575,7 @@ function ProgramsPageContent() {
           <Button
             onClick={() => setIsMobileFiltersOpen(!isMobileFiltersOpen)}
             variant="outline"
-            className="w-full justify-between"
+            className="w-full justify-between animate-button-outline"
           >
             <span className="flex items-center gap-2">
               <Filter className="h-4 w-4" />
@@ -613,7 +598,7 @@ function ProgramsPageContent() {
               </h2>
               <button
                 onClick={clearFilters}
-                className="text-sm text-teal-600 hover:text-teal-700 font-medium"
+                className="text-sm text-red-600 hover:text-red-700 font-medium border border-red-600 px-3 py-1 rounded animate-button-outline"
               >
                 Clear all
               </button>
@@ -709,9 +694,9 @@ function ProgramsPageContent() {
                     value="academic"
                     checked={filters.term === 'academic'}
                     onChange={(e) => toggleFilter('term', e.target.value)}
-                    className="w-4 h-4 text-teal-600 border-gray-300 focus:ring-teal-500"
+                    className="w-4 h-4 text-red-600 border-gray-300 focus:ring-red-500"
                   />
-                  <span className="text-sm text-gray-700 group-hover:text-teal-600 transition-colors">
+                  <span className="text-sm text-gray-700 group-hover:text-red-600 transition-colors">
                     Academic Year
                   </span>
                 </label>
@@ -722,9 +707,9 @@ function ProgramsPageContent() {
                     value="fall"
                     checked={filters.term === 'fall'}
                     onChange={(e) => toggleFilter('term', e.target.value)}
-                    className="w-4 h-4 text-teal-600 border-gray-300 focus:ring-teal-500"
+                    className="w-4 h-4 text-red-600 border-gray-300 focus:ring-red-500"
                   />
-                  <span className="text-sm text-gray-700 group-hover:text-teal-600 transition-colors">
+                  <span className="text-sm text-gray-700 group-hover:text-red-600 transition-colors">
                     Fall Semester
                   </span>
                 </label>
@@ -735,9 +720,9 @@ function ProgramsPageContent() {
                     value="spring"
                     checked={filters.term === 'spring'}
                     onChange={(e) => toggleFilter('term', e.target.value)}
-                    className="w-4 h-4 text-teal-600 border-gray-300 focus:ring-teal-500"
+                    className="w-4 h-4 text-red-600 border-gray-300 focus:ring-red-500"
                   />
-                  <span className="text-sm text-gray-700 group-hover:text-teal-600 transition-colors">
+                  <span className="text-sm text-gray-700 group-hover:text-red-600 transition-colors">
                     Spring Semester
                   </span>
                 </label>
@@ -748,9 +733,9 @@ function ProgramsPageContent() {
                     value="summer"
                     checked={filters.term === 'summer'}
                     onChange={(e) => toggleFilter('term', e.target.value)}
-                    className="w-4 h-4 text-teal-600 border-gray-300 focus:ring-teal-500"
+                    className="w-4 h-4 text-red-600 border-gray-300 focus:ring-red-500"
                   />
-                  <span className="text-sm text-gray-700 group-hover:text-teal-600 transition-colors">
+                  <span className="text-sm text-gray-700 group-hover:text-red-600 transition-colors">
                     Summer Break
                   </span>
                 </label>
@@ -761,9 +746,9 @@ function ProgramsPageContent() {
                     value="winter"
                     checked={filters.term === 'winter'}
                     onChange={(e) => toggleFilter('term', e.target.value)}
-                    className="w-4 h-4 text-teal-600 border-gray-300 focus:ring-teal-500"
+                    className="w-4 h-4 text-red-600 border-gray-300 focus:ring-red-500"
                   />
-                  <span className="text-sm text-gray-700 group-hover:text-teal-600 transition-colors">
+                  <span className="text-sm text-gray-700 group-hover:text-red-600 transition-colors">
                     Winter Break
                   </span>
                 </label>
@@ -781,7 +766,7 @@ function ProgramsPageContent() {
                   Current term: {filters.term} | 
                   Active filters: {JSON.stringify(filters)}
                 </p>
-                <Button onClick={clearFilters} variant="outline" className="mt-4">
+                <Button onClick={clearFilters} variant="outline" className="mt-4 animate-button-outline">
                   Clear All Filters
                 </Button>
               </div>
@@ -819,7 +804,7 @@ function ProgramsPageContent() {
 
                       {/* Program Content */}
                       <div className="p-5">
-                        <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-teal-600 transition-colors">
+                        <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-red-600 transition-colors">
                           {program.title}
                         </h3>
                         <p className="text-gray-600 text-sm mb-3 font-medium">
@@ -829,30 +814,47 @@ function ProgramsPageContent() {
                         {/* Program Details */}
                         <div className="space-y-2 mb-4">
                           <div className="flex items-center text-sm text-gray-600">
-                            <MapPin className="h-4 w-4 mr-2 text-teal-600" />
+                            <MapPin className="h-4 w-4 mr-2 text-red-600" />
                             {program.destination}
                           </div>
                           <div className="flex items-center text-sm text-gray-600">
-                            <GraduationCap className="h-4 w-4 mr-2 text-teal-600" />
+                            <GraduationCap className="h-4 w-4 mr-2 text-red-600" />
                             {program.field}
                           </div>
                           <div className="flex items-center text-sm text-gray-600">
-                            <Clock className="h-4 w-4 mr-2 text-teal-600" />
+                            <Clock className="h-4 w-4 mr-2 text-red-600" />
                             {program.duration}
                           </div>
                           <div className="flex items-center text-sm text-gray-600">
-                            <Calendar className="h-4 w-4 mr-2 text-teal-600" />
+                            <Calendar className="h-4 w-4 mr-2 text-red-600" />
                             {program.startDate}
                           </div>
                         </div>
 
-                        {/* Price and Program Type */}
-                        <div className="flex items-center justify-between pt-4 border-t border-gray-200">
-                          <div className="flex items-center text-teal-600 font-bold">
-                            <DollarSign className="h-5 w-5 mr-1" />
-                            {program.price}
-                          </div>
-                          <span className="text-xs font-semibold text-gray-500 uppercase tracking-wide">
+                        {/* Request Info Button */}
+                        <div className="flex flex-col gap-3 pt-4 border-t border-gray-200">
+                          <button
+                            onClick={(e) => {
+                              e.preventDefault()
+                              const message = encodeURIComponent(
+                                `Hi StudyinCanada.ID, I'm interested in the following program:\n\n` +
+                                `Program: ${program.title}\n` +
+                                `University: ${program.university}\n` +
+                                `Destination: ${program.destination}\n` +
+                                `Field: ${program.field}\n` +
+                                `Type: ${program.programType}\n` +
+                                `Duration: ${program.duration}\n` +
+                                `Start Date: ${program.startDate}\n\n` +
+                                `Please send me more information about this program.`
+                              )
+                              window.open(`https://wa.me/62881037405908?text=${message}`, '_blank')
+                            }}
+                            className="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2"
+                          >
+                            <MessageCircle className="h-4 w-4" />
+                            Request Info
+                          </button>
+                          <span className="text-xs font-semibold text-gray-500 uppercase tracking-wide text-center">
                             {program.programType}
                           </span>
                         </div>
@@ -882,3 +884,4 @@ export default function ProgramsPage() {
     </Suspense>
   )
 }
+

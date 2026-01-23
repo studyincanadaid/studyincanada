@@ -41,7 +41,7 @@ export function WorldLanguagesNavigationTabs() {
   }
 
   return (
-    <div className="bg-[#1BB685] border-b border-border sticky top-16 z-20" style={{ backgroundColor: "#1BB685", color: "#ffffff" }}>
+    <div className="bg-[#C8102E] border-b border-border sticky top-16 z-20" style={{ backgroundColor: "#C8102E", color: "#ffffff" }}>
       <div className="max-w-6xl mx-auto relative">
         <div className="container">
           <div className="page-submenu-inner relative">
@@ -80,7 +80,7 @@ export function WorldLanguagesNavigationTabs() {
               <ul 
                 ref={navRef}
                 className="flex"
-                style={{ backgroundColor: "#1BB685", color: "#ffffff" }}
+                style={{ backgroundColor: "#C8102E", color: "#ffffff" }}
               >
                 <li>
                   <a 
@@ -138,4 +138,5 @@ export function WorldLanguagesNavigationTabs() {
     </div>
   )
 }
+
 

@@ -64,7 +64,7 @@ export function ProgramPageClient({ currentProgram, universityPrograms, uniData 
             <ul className="space-y-3">
               {currentProgram.highlights.slice(0, 5).map((highlight, index) => (
                 <li key={index} className="flex items-start gap-3">
-                  <Check className="h-5 w-5 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                  <Check className="h-5 w-5 text-[#C8102E] mt-0.5 flex-shrink-0" />
                   <span className="text-[#424242] leading-relaxed">{highlight}</span>
                 </li>
               ))}
@@ -81,35 +81,35 @@ export function ProgramPageClient({ currentProgram, universityPrograms, uniData 
           </h2>
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <Building2 className="h-5 w-5 text-[#1BB685] flex-shrink-0" />
+              <Building2 className="h-5 w-5 text-[#C8102E] flex-shrink-0" />
               <div>
                 <p className="text-sm text-muted-foreground">Founded</p>
                 <p className="text-base font-semibold text-[#424242]">{uniData.founded}</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
-              <Users className="h-5 w-5 text-[#1BB685] flex-shrink-0" />
+              <Users className="h-5 w-5 text-[#C8102E] flex-shrink-0" />
               <div>
                 <p className="text-sm text-muted-foreground">Students</p>
                 <p className="text-base font-semibold text-[#424242]">{uniData.students}</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
-              <BookOpen className="h-5 w-5 text-[#1BB685] flex-shrink-0" />
+              <BookOpen className="h-5 w-5 text-[#C8102E] flex-shrink-0" />
               <div>
                 <p className="text-sm text-muted-foreground">Programs</p>
                 <p className="text-base font-semibold text-[#424242]">{uniData.programs}</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
-              <Award className="h-5 w-5 text-[#1BB685] flex-shrink-0" />
+              <Award className="h-5 w-5 text-[#C8102E] flex-shrink-0" />
               <div>
                 <p className="text-sm text-muted-foreground">Acceptance</p>
                 <p className="text-base font-semibold text-[#424242]">{uniData.acceptance}</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
-              <DollarSign className="h-5 w-5 text-[#1BB685] flex-shrink-0" />
+              <DollarSign className="h-5 w-5 text-[#C8102E] flex-shrink-0" />
               <div>
                 <p className="text-sm text-muted-foreground">Tuition</p>
                 <p className="text-base font-semibold text-[#424242]">{uniData.tuition}</p>
@@ -128,7 +128,7 @@ export function ProgramPageClient({ currentProgram, universityPrograms, uniData 
         <ul className="space-y-3">
           {currentProgram.requirements.map((req, index) => (
             <li key={index} className="flex items-start gap-3">
-              <Check className="h-5 w-5 text-[#1BB685] mt-0.5 flex-shrink-0" />
+              <Check className="h-5 w-5 text-[#C8102E] mt-0.5 flex-shrink-0" />
               <span className="text-[#424242] leading-relaxed">{req}</span>
             </li>
           ))}
@@ -148,4 +148,5 @@ export function ProgramPageClient({ currentProgram, universityPrograms, uniData 
     />
   )
 }
+
 

@@ -194,7 +194,7 @@ export default function SignupPage() {
                   type="checkbox"
                   checked={acceptTerms}
                   onChange={(e) => setAcceptTerms(e.target.checked)}
-                  className="h-4 w-4 mt-1 rounded border-gray-300 text-[#1BB685] focus:ring-[#1BB685]"
+                  className="h-4 w-4 mt-1 rounded border-gray-300 text-[#C8102E] focus:ring-[#C8102E]"
                   required
                 />
                 <Label
@@ -204,14 +204,14 @@ export default function SignupPage() {
                   I agree to the{" "}
                   <Link
                     href="/terms"
-                    className="text-[#1BB685] hover:text-[#1BB685]/80 font-medium underline"
+                    className="text-[#C8102E] hover:text-[#C8102E]/80 font-medium underline"
                   >
                     Terms and Conditions
                   </Link>{" "}
                   and{" "}
                   <Link
                     href="/privacy"
-                    className="text-[#1BB685] hover:text-[#1BB685]/80 font-medium underline"
+                    className="text-[#C8102E] hover:text-[#C8102E]/80 font-medium underline"
                   >
                     Privacy Policy
                   </Link>
@@ -220,7 +220,7 @@ export default function SignupPage() {
 
               <Button
                 type="submit"
-                className="w-full h-12 text-base font-semibold bg-[#1BB685] hover:bg-[#1BB685]/90 text-white transition-colors"
+                className="w-full h-12 text-base font-semibold bg-[#C8102E] hover:bg-[#C8102E]/90 text-white transition-colors"
                 disabled={isLoading}
               >
                 {isLoading ? "Creating account..." : "Create Account"}
@@ -280,7 +280,7 @@ export default function SignupPage() {
               <span className="text-[#424242]">Already have an account? </span>
               <Link
                 href="/login"
-                className="text-[#1BB685] hover:text-[#1BB685]/80 font-semibold transition-colors"
+                className="text-[#C8102E] hover:text-[#C8102E]/80 font-semibold transition-colors"
               >
                 Sign in
               </Link>
@@ -291,4 +291,5 @@ export default function SignupPage() {
     </div>
   )
 }
+
 

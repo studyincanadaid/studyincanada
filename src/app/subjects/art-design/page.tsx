@@ -257,9 +257,19 @@ export default function ArtDesignPage() {
                     {program.description}
                   </p>
                   <div className="mt-auto">
-                    <p className="text-lg font-semibold text-[#424242] bg-[#E7E7E7] px-4 py-2 rounded inline-block">
-                      {program.price}
-                    </p>
+                    <button
+                      onClick={() => {
+                        const message = encodeURIComponent(
+                          `Hi StudyinCanada.ID, I'm interested in the following program:\n\n` +
+                          `Program: ${program.title}\n` +
+                          `Duration: ${program.duration}`
+                        )
+                        window.open(`https://wa.me/62881037405908?text=${message}`, '_blank')
+                      }}
+                      className="text-lg font-semibold text-white bg-red-600 hover:bg-red-700 px-4 py-2 rounded inline-block transition-colors"
+                    >
+                      Request Info
+                    </button>
                   </div>
                 </div>
               </div>
@@ -417,7 +427,7 @@ export default function ArtDesignPage() {
                       />
                     </div>
                     <div className="p-4">
-                      <h3 className="text-lg font-bold text-[#424242] group-hover:text-[#1BB685] transition-colors">
+                      <h3 className="text-lg font-bold text-[#424242] group-hover:text-[#C8102E] transition-colors">
                         {subject.title}
                       </h3>
                     </div>
@@ -443,7 +453,7 @@ export default function ArtDesignPage() {
                       />
                     </div>
                     <div className="p-4">
-                      <h3 className="text-lg font-bold text-[#424242] group-hover:text-[#1BB685] transition-colors">
+                      <h3 className="text-lg font-bold text-[#424242] group-hover:text-[#C8102E] transition-colors">
                         {subject.title}
                       </h3>
                     </div>
@@ -457,5 +467,6 @@ export default function ArtDesignPage() {
     </div>
   )
 }
+
 
 

@@ -1,0 +1,877 @@
+[00:00:02.639] Server  LOG     ✓ Ready in 1872ms
+[00:00:08.229] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:08.935] Browser LOG     Navbar Auth Debug: {"contextToken":false,"contextUser":null,"currentUser":null,"hasLocalStorageToken":false,"hasLocalStorageUser":false,"isAuthenticated":false,"isUserAuthenticated":false}
+[00:00:08.935] Browser WARN    Image with src "/_next/static/media/rsz_girl-sitting-table-reading-flipping-page.23a69c7d.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:08.935] Browser WARN    Image with src "/_next/static/media/rsz_girl-painting-canvas.771190f7.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:08.935] Browser WARN    Image with src "/_next/static/media/Universidad LCI.6439ae10.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:08.935] Browser WARN    Image with src "/_next/static/media/LCI Barcelona.0955bad5.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:08.935] Browser WARN    Image with src "/_next/static/media/Al Akhawayn University.aac9a6a8.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:08.935] Browser WARN    Image with src "/_next/static/media/University of Pécs.4f940960.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:08.935] Browser WARN    Image with src "/_next/static/media/rsz_friendly-artist.20c2aab6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:09.592] Browser WARN    Image with src "/_next/static/media/Business&Economics.a4cfd4bd.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:09.592] Browser WARN    Image with src "/_next/static/media/Communications.137221c3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:09.592] Browser WARN    Image with src "/_next/static/media/Education.2bb64861.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:09.592] Browser WARN    Image with src "/_next/static/media/Engineering.9318da00.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:38.516] Server  LOG     ✓ Compiled in 753ms
+[00:01:41.751] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/hec_paris_f7r1en.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/hec_paris_f7r1en.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:01:41.754] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/n_u_singapore_odfhwz.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/n_u_singapore_odfhwz.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:01:41.755] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/u_o_oxford_ku4ude.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/u_o_oxford_ku4ude.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:01:41.756] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/universiata_d_Alacant_zuma89.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/universiata_d_Alacant_zuma89.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:01:41.757] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/universidad_carlos_de_madrid_xcpf2d.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/universidad_carlos_de_madrid_xcpf2d.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:01:41.758] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/universidad_de_Valladolid_ikyu4d.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/universidad_de_Valladolid_ikyu4d.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:01:41.760] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/university_of_sydney_vuktjo.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/university_of_sydney_vuktjo.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:01:42.711] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:01:42.711] Browser WARN    Image with src "/_next/static/media/logo.172b8e3f.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:42.711] Browser WARN    Image with src "/_next/static/media/southKoreaImage.3f42d47f.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:42.711] Browser WARN    Image with src "/_next/static/media/girl-sitting-table-reading-flipping-page.bc263459.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:42.711] Browser WARN    Image with src "/_next/static/media/girl-holding-card-boards-standing.da8431c2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:42.959] Browser WARN    Image with src "/_next/static/media/Udayana University.60360dcc.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:42.959] Browser WARN    Image with src "/_next/static/media/Mahidol University.b7a8d273.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:48.588] Browser WARN    Image with src "/_next/static/media/internationalStudentUSA.6ec5c163.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:48.588] Browser WARN    Image with src "/_next/static/media/women'sScholarship.c58cb600.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:48.588] Browser WARN    Image with src "/_next/static/media/adultLearnersScholarship.f3f22828.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:48.588] Browser WARN    Image with src "/_next/static/media/internationalStudentEurope.jpg.c0de83a9.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:52.590] Browser WARN    Image with src "/_next/static/media/students-walking-together.5a09829a.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:03.808] Browser WARN    Image with src "/_next/static/media/usc_notm3b.c870d0f3.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:35.992] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/hec_paris_f7r1en.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/hec_paris_f7r1en.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:35.993] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/n_u_singapore_odfhwz.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/n_u_singapore_odfhwz.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:35.994] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/u_o_oxford_ku4ude.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/u_o_oxford_ku4ude.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:35.995] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/universiata_d_Alacant_zuma89.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/universiata_d_Alacant_zuma89.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:35.996] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/universidad_carlos_de_madrid_xcpf2d.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/universidad_carlos_de_madrid_xcpf2d.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:35.997] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/universidad_de_Valladolid_ikyu4d.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/universidad_de_Valladolid_ikyu4d.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:35.998] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/university_of_sydney_vuktjo.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/university_of_sydney_vuktjo.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:37.461] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/hec_paris_f7r1en.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/hec_paris_f7r1en.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:37.461] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/n_u_singapore_odfhwz.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/n_u_singapore_odfhwz.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:37.462] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/u_o_oxford_ku4ude.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/u_o_oxford_ku4ude.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:37.463] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/universiata_d_Alacant_zuma89.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/universiata_d_Alacant_zuma89.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:37.474] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/universidad_carlos_de_madrid_xcpf2d.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/universidad_carlos_de_madrid_xcpf2d.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:37.482] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/universidad_de_Valladolid_ikyu4d.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/universidad_de_Valladolid_ikyu4d.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:37.497] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/university_of_sydney_vuktjo.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/university_of_sydney_vuktjo.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:37.531] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:38.849] Browser LOG     Navbar Auth Debug: {"contextToken":false,"contextUser":null,"currentUser":null,"hasLocalStorageToken":false,"hasLocalStorageUser":false,"isAuthenticated":false,"isUserAuthenticated":false}
+[00:02:38.849] Browser WARN    Image with src "/_next/static/media/logo.172b8e3f.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:38.849] Browser WARN    Image with src "/_next/static/media/Udayana University.60360dcc.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:38.849] Browser WARN    Image with src "/_next/static/media/LCI Barcelona.0955bad5.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:38.849] Browser WARN    Image with src "/_next/static/media/University of Pécs.4f940960.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:38.849] Browser WARN    Image with src "/_next/static/media/Universidad LCI.6439ae10.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:38.849] Browser WARN    Image with src "/_next/static/media/Al Akhawayn University.aac9a6a8.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:38.849] Browser WARN    Image with src "/_next/static/media/Mahidol University.b7a8d273.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:38.849] Browser WARN    Image with src "/_next/static/media/internationalStudentEurope.jpg.c0de83a9.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:38.849] Browser WARN    Image with src "/_next/static/media/internationalStudentUSA.6ec5c163.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:38.849] Browser WARN    Image with src "/_next/static/media/adultLearnersScholarship.f3f22828.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:38.849] Browser WARN    Image with src "/_next/static/media/women'sScholarship.c58cb600.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:38.849] Browser WARN    Image with src "/_next/static/media/southKoreaImage.3f42d47f.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:38.849] Browser WARN    Image with src "/_next/static/media/girl-sitting-table-reading-flipping-page.bc263459.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:38.849] Browser WARN    Image with src "/_next/static/media/girl-holding-card-boards-standing.da8431c2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:38.849] Browser WARN    Image with src "/_next/static/media/students-walking-together.5a09829a.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:49.057] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/hec_paris_f7r1en.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/hec_paris_f7r1en.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:49.060] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/n_u_singapore_odfhwz.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/n_u_singapore_odfhwz.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:49.064] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/u_o_oxford_ku4ude.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/u_o_oxford_ku4ude.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:49.066] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/universiata_d_Alacant_zuma89.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/universiata_d_Alacant_zuma89.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:49.074] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/universidad_carlos_de_madrid_xcpf2d.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/universidad_carlos_de_madrid_xcpf2d.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:49.076] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/universidad_de_Valladolid_ikyu4d.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/universidad_de_Valladolid_ikyu4d.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:49.089] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/university_of_sydney_vuktjo.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/university_of_sydney_vuktjo.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:50.178] Server  LOG     ✓ Compiled in 403ms
+[00:02:51.105] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/hec_paris_f7r1en.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/hec_paris_f7r1en.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:51.108] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/n_u_singapore_odfhwz.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/n_u_singapore_odfhwz.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:51.116] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/u_o_oxford_ku4ude.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/u_o_oxford_ku4ude.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:51.129] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/universiata_d_Alacant_zuma89.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/universiata_d_Alacant_zuma89.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:51.133] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/universidad_carlos_de_madrid_xcpf2d.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/universidad_carlos_de_madrid_xcpf2d.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:51.149] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/universidad_de_Valladolid_ikyu4d.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/universidad_de_Valladolid_ikyu4d.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:51.159] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/university_of_sydney_vuktjo.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/university_of_sydney_vuktjo.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:02:51.160] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:51.870] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <div className="w-full spa..." data-orientation="vertical" onKeyDown={function handleEvent} ref={function}>
+      ...
+        <AccordionItemProvider scope={undefined} open={false} disabled={undefined} triggerId="radix-_R_6...">
+          <Collapsible data-orientation="vertical" data-state="closed" __scopeCollapsible={{...}} ...>
+            <CollapsibleProvider scope={{...}} disabled={undefined} contentId="radix-_R_1..." open={false} ...>
+              <Primitive.div data-state="closed" data-disabled={undefined} data-orientation="vertical" ...>
+                <div data-state="closed" data-disabled={undefined} data-orientation="vertical" className="border bor..." ...>
+                  ...
+                    <h3 data-orientation="vertical" data-state="closed" data-disabled={undefined} className="flex" ...>
+                      <AccordionTrigger ref={null} className={"flex fle..."}>
+                        <AccordionCollectionItemSlot scope={undefined}>
+                          <AccordionCollectionItemSlot.Slot data-radix-collection-item="" ref={function}>
+                            <AccordionCollectionItemSlot.SlotClone data-radix-collection-item="" ref={function}>
+                              <CollapsibleTrigger aria-disabled={undefined} data-orientation="vertical" ...>
+                                <Primitive.button type="button" aria-controls="radix-_R_1..." aria-expanded={false} ...>
+                                  <button
+                                    type="button"
++                                   aria-controls="radix-_R_16l5eqlb_"
+-                                   aria-controls="radix-_R_4qklr9lb_"
+                                    aria-expanded={false}
+                                    data-state="closed"
+                                    data-disabled={undefined}
+                                    disabled={undefined}
+                                    aria-disabled={undefined}
+                                    data-orientation="vertical"
++                                   id="radix-_R_6l5eqlb_"
+-                                   id="radix-_R_qklr9lb_"
+                                    className={"flex flex-1 items-center justify-between py-4 transition-all [&[data-..."}
+                                    data-radix-collection-item=""
+                                    onClick={function handleEvent}
+                                    ref={function}
+                                  >
+                  <_c6 className="text-base ...">
+                    <AccordionContent ref={null} className="overflow-h...">
+                      <CollapsibleContent role="region" aria-labelledby="radix-_R_6..." data-orientation="vertical" ...>
+                        <Presence present={false}>
+                          <Primitive.div data-state="closed" data-disabled={undefined} id="radix-_R_1..." hidden={true} ...>
+                            <div
+                              data-state="closed"
+                              data-disabled={undefined}
++                             id="radix-_R_16l5eqlb_"
+-                             id="radix-_R_4qklr9lb_"
+                              hidden={true}
+                              role="region"
++                             aria-labelledby="radix-_R_6l5eqlb_"
+-                             aria-labelledby="radix-_R_qklr9lb_"
+                              data-orientation="vertical"
+                              className="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-..."
+                              style={{--radix-collapsible-content-height:undefined,--radix-collapsible-content-width:undefined, ...}}
+                              ref={function}
+                            >
+      ...
+        <AccordionItemProvider scope={undefined} open={false} disabled={undefined} triggerId="radix-_R_a...">
+          <Collapsible data-orientation="vertical" data-state="closed" __scopeCollapsible={{...}} ...>
+            <CollapsibleProvider scope={{...}} disabled={undefined} contentId="radix-_R_1..." open={false} ...>
+              <Primitive.div data-state="closed" data-disabled={undefined} data-orientation="vertical" ...>
+                <div data-state="closed" data-disabled={undefined} data-orientation="vertical" className="border bor..." ...>
+                  ...
+                    <h3 data-orientation="vertical" data-state="closed" data-disabled={undefined} className="flex" ...>
+                      <AccordionTrigger ref={null} className={"flex fle..."}>
+                        <AccordionCollectionItemSlot scope={undefined}>
+                          <AccordionCollectionItemSlot.Slot data-radix-collection-item="" ref={function}>
+                            <AccordionCollectionItemSlot.SlotClone data-radix-collection-item="" ref={function}>
+                              <CollapsibleTrigger aria-disabled={undefined} data-orientation="vertical" ...>
+                                <Primitive.button type="button" aria-controls="radix-_R_1..." aria-expanded={false} ...>
+                                  <button
+                                    type="button"
++                                   aria-controls="radix-_R_1al5eqlb_"
+-                                   aria-controls="radix-_R_5aklr9lb_"
+                                    aria-expanded={false}
+                                    data-state="closed"
+                                    data-disabled={undefined}
+                                    disabled={undefined}
+                                    aria-disabled={undefined}
+                                    data-orientation="vertical"
++                                   id="radix-_R_al5eqlb_"
+-                                   id="radix-_R_1aklr9lb_"
+                                    className={"flex flex-1 items-center justify-between py-4 transition-all [&[data-..."}
+                                    data-radix-collection-item=""
+                                    onClick={function handleEvent}
+                                    ref={function}
+                                  >
+                  <_c6 className="text-base ...">
+                    <AccordionContent ref={null} className="overflow-h...">
+                      <CollapsibleContent role="region" aria-labelledby="radix-_R_a..." data-orientation="vertical" ...>
+                        <Presence present={false}>
+                          <Primitive.div data-state="closed" data-disabled={undefined} id="radix-_R_1..." hidden={true} ...>
+                            <div
+                              data-state="closed"
+                              data-disabled={undefined}
++                             id="radix-_R_1al5eqlb_"
+-                             id="radix-_R_5aklr9lb_"
+                              hidden={true}
+                              role="region"
++                             aria-labelledby="radix-_R_al5eqlb_"
+-                             aria-labelledby="radix-_R_1aklr9lb_"
+                              data-orientation="vertical"
+                              className="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-..."
+                              style={{--radix-collapsible-content-height:undefined,--radix-collapsible-content-width:undefined, ...}}
+                              ref={function}
+                            >
+      ...
+        <AccordionItemProvider scope={undefined} open={false} disabled={undefined} triggerId="radix-_R_e...">
+          <Collapsible data-orientation="vertical" data-state="closed" __scopeCollapsible={{...}} ...>
+            <CollapsibleProvider scope={{...}} disabled={undefined} contentId="radix-_R_1..." open={false} ...>
+              <Primitive.div data-state="closed" data-disabled={undefined} data-orientation="vertical" ...>
+                <div data-state="closed" data-disabled={undefined} data-orientation="vertical" className="border bor..." ...>
+                  ...
+                    <h3 data-orientation="vertical" data-state="closed" data-disabled={undefined} className="flex" ...>
+                      <AccordionTrigger ref={null} className={"flex fle..."}>
+                        <AccordionCollectionItemSlot scope={undefined}>
+                          <AccordionCollectionItemSlot.Slot data-radix-collection-item="" ref={function}>
+                            <AccordionCollectionItemSlot.SlotClone data-radix-collection-item="" ref={function}>
+                              <CollapsibleTrigger aria-disabled={undefined} data-orientation="vertical" ...>
+                                <Primitive.button type="button" aria-controls="radix-_R_1..." aria-expanded={false} ...>
+                                  <button
+                                    type="button"
++                                   aria-controls="radix-_R_1el5eqlb_"
+-                                   aria-controls="radix-_R_5qklr9lb_"
+                                    aria-expanded={false}
+                                    data-state="closed"
+                                    data-disabled={undefined}
+                                    disabled={undefined}
+                                    aria-disabled={undefined}
+                                    data-orientation="vertical"
++                                   id="radix-_R_el5eqlb_"
+-                                   id="radix-_R_1qklr9lb_"
+                                    className={"flex flex-1 items-center justify-between py-4 transition-all [&[data-..."}
+                                    data-radix-collection-item=""
+                                    onClick={function handleEvent}
+                                    ref={function}
+                                  >
+                  <_c6 className="text-base ...">
+                    <AccordionContent ref={null} className="overflow-h...">
+                      <CollapsibleContent role="region" aria-labelledby="radix-_R_e..." data-orientation="vertical" ...>
+                        <Presence present={false}>
+                          <Primitive.div data-state="closed" data-disabled={undefined} id="radix-_R_1..." hidden={true} ...>
+                            <div
+                              data-state="closed"
+                              data-disabled={undefined}
++                             id="radix-_R_1el5eqlb_"
+-                             id="radix-_R_5qklr9lb_"
+                              hidden={true}
+                              role="region"
++                             aria-labelledby="radix-_R_el5eqlb_"
+-                             aria-labelledby="radix-_R_1qklr9lb_"
+                              data-orientation="vertical"
+                              className="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-..."
+                              style={{--radix-collapsible-content-height:undefined,--radix-collapsible-content-width:undefined, ...}}
+                              ref={function}
+                            >
+      ...
+        <AccordionItemProvider scope={undefined} open={false} disabled={undefined} triggerId="radix-_R_i...">
+          <Collapsible data-orientation="vertical" data-state="closed" __scopeCollapsible={{...}} ...>
+            <CollapsibleProvider scope={{...}} disabled={undefined} contentId="radix-_R_1..." open={false} ...>
+              <Primitive.div data-state="closed" data-disabled={undefined} data-orientation="vertical" ...>
+                <div data-state="closed" data-disabled={undefined} data-orientation="vertical" className="border bor..." ...>
+                  ...
+                    <h3 data-orientation="vertical" data-state="closed" data-disabled={undefined} className="flex" ...>
+                      <AccordionTrigger ref={null} className={"flex fle..."}>
+                        <AccordionCollectionItemSlot scope={undefined}>
+                          <AccordionCollectionItemSlot.Slot data-radix-collection-item="" ref={function}>
+                            <AccordionCollectionItemSlot.SlotClone data-radix-collection-item="" ref={function}>
+                              <CollapsibleTrigger aria-disabled={undefined} data-orientation="vertical" ...>
+                                <Primitive.button type="button" aria-controls="radix-_R_1..." aria-expanded={false} ...>
+                                  <button
+                                    type="button"
++                                   aria-controls="radix-_R_1il5eqlb_"
+-                                   aria-controls="radix-_R_6aklr9lb_"
+                                    aria-expanded={false}
+                                    data-state="closed"
+                                    data-disabled={undefined}
+                                    disabled={undefined}
+                                    aria-disabled={undefined}
+                                    data-orientation="vertical"
++                                   id="radix-_R_il5eqlb_"
+-                                   id="radix-_R_2aklr9lb_"
+                                    className={"flex flex-1 items-center justify-between py-4 transition-all [&[data-..."}
+                                    data-radix-collection-item=""
+                                    onClick={function handleEvent}
+                                    ref={function}
+                                  >
+                  <_c6 className="text-base ...">
+                    <AccordionContent ref={null} className="overflow-h...">
+                      <CollapsibleContent role="region" aria-labelledby="radix-_R_i..." data-orientation="vertical" ...>
+                        <Presence present={false}>
+                          <Primitive.div data-state="closed" data-disabled={undefined} id="radix-_R_1..." hidden={true} ...>
+                            <div
+                              data-state="closed"
+                              data-disabled={undefined}
++                             id="radix-_R_1il5eqlb_"
+-                             id="radix-_R_6aklr9lb_"
+                              hidden={true}
+                              role="region"
++                             aria-labelledby="radix-_R_il5eqlb_"
+-                             aria-labelledby="radix-_R_2aklr9lb_"
+                              data-orientation="vertical"
+                              className="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-..."
+                              style={{--radix-collapsible-content-height:undefined,--radix-collapsible-content-width:undefined, ...}}
+                              ref={function}
+                            >
+      ...
+        <AccordionItemProvider scope={undefined} open={false} disabled={undefined} triggerId="radix-_R_m...">
+          <Collapsible data-orientation="vertical" data-state="closed" __scopeCollapsible={{...}} ...>
+            <CollapsibleProvider scope={{...}} disabled={undefined} contentId="radix-_R_1..." open={false} ...>
+              <Primitive.div data-state="closed" data-disabled={undefined} data-orientation="vertical" ...>
+                <div data-state="closed" data-disabled={undefined} data-orientation="vertical" className="border bor..." ...>
+                  ...
+                    <h3 data-orientation="vertical" data-state="closed" data-disabled={undefined} className="flex" ...>
+                      <AccordionTrigger ref={null} className={"flex fle..."}>
+                        <AccordionCollectionItemSlot scope={undefined}>
+                          <AccordionCollectionItemSlot.Slot data-radix-collection-item="" ref={function}>
+                            <AccordionCollectionItemSlot.SlotClone data-radix-collection-item="" ref={function}>
+                              <CollapsibleTrigger aria-disabled={undefined} data-orientation="vertical" ...>
+                                <Primitive.button type="button" aria-controls="radix-_R_1..." aria-expanded={false} ...>
+                                  <button
+                                    type="button"
++                                   aria-controls="radix-_R_1ml5eqlb_"
+-                                   aria-controls="radix-_R_6qklr9lb_"
+                                    aria-expanded={false}
+                                    data-state="closed"
+                                    data-disabled={undefined}
+                                    disabled={undefined}
+                                    aria-disabled={undefined}
+                                    data-orientation="vertical"
++                                   id="radix-_R_ml5eqlb_"
+-                                   id="radix-_R_2qklr9lb_"
+                                    className={"flex flex-1 items-center justify-between py-4 transition-all [&[data-..."}
+                                    data-radix-collection-item=""
+                                    onClick={function handleEvent}
+                                    ref={function}
+                                  >
+                  <_c6 className="text-base ...">
+                    <AccordionContent ref={null} className="overflow-h...">
+                      <CollapsibleContent role="region" aria-labelledby="radix-_R_m..." data-orientation="vertical" ...>
+                        <Presence present={false}>
+                          <Primitive.div data-state="closed" data-disabled={undefined} id="radix-_R_1..." hidden={true} ...>
+                            <div
+                              data-state="closed"
+                              data-disabled={undefined}
++                             id="radix-_R_1ml5eqlb_"
+-                             id="radix-_R_6qklr9lb_"
+                              hidden={true}
+                              role="region"
++                             aria-labelledby="radix-_R_ml5eqlb_"
+-                             aria-labelledby="radix-_R_2qklr9lb_"
+                              data-orientation="vertical"
+                              className="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-..."
+                              style={{--radix-collapsible-content-height:undefined,--radix-collapsible-content-width:undefined, ...}}
+                              ref={function}
+                            >
+
+[00:02:51.870] Browser LOG     Navbar Auth Debug: {"contextToken":false,"contextUser":null,"currentUser":null,"hasLocalStorageToken":false,"hasLocalStorageUser":false,"isAuthenticated":false,"isUserAuthenticated":false}
+[00:02:52.174] Browser WARN    Image with src "/_next/static/media/logo.172b8e3f.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:52.174] Browser WARN    Image with src "/_next/static/media/Udayana University.60360dcc.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:52.174] Browser WARN    Image with src "/_next/static/media/LCI Barcelona.0955bad5.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:52.174] Browser WARN    Image with src "/_next/static/media/University of Pécs.4f940960.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:52.174] Browser WARN    Image with src "/_next/static/media/Universidad LCI.6439ae10.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:52.174] Browser WARN    Image with src "/_next/static/media/Al Akhawayn University.aac9a6a8.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:52.174] Browser WARN    Image with src "/_next/static/media/Mahidol University.b7a8d273.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:52.174] Browser WARN    Image with src "/_next/static/media/internationalStudentEurope.jpg.c0de83a9.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:52.174] Browser WARN    Image with src "/_next/static/media/internationalStudentUSA.6ec5c163.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:52.174] Browser WARN    Image with src "/_next/static/media/adultLearnersScholarship.f3f22828.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:52.174] Browser WARN    Image with src "/_next/static/media/women'sScholarship.c58cb600.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:52.174] Browser WARN    Image with src "/_next/static/media/southKoreaImage.3f42d47f.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:52.174] Browser WARN    Image with src "/_next/static/media/girl-sitting-table-reading-flipping-page.bc263459.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:52.174] Browser WARN    Image with src "/_next/static/media/girl-holding-card-boards-standing.da8431c2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:52.174] Browser WARN    Image with src "/_next/static/media/students-walking-together.5a09829a.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:21.082] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:03:22.904] Browser WARN    Image with src "/_next/static/media/universityTokyo.fe395345.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:22.904] Browser WARN    Image with src "/_next/static/media/kyotoUniversity.65a3a2a1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:22.904] Browser WARN    Image with src "/_next/static/media/wasedaUniversity.5c993236.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:25.400] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/hec_paris_f7r1en.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/hec_paris_f7r1en.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:03:25.404] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/n_u_singapore_odfhwz.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/n_u_singapore_odfhwz.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:03:25.405] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/u_o_oxford_ku4ude.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/u_o_oxford_ku4ude.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:03:25.407] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/universiata_d_Alacant_zuma89.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/universiata_d_Alacant_zuma89.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:03:25.409] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/universidad_carlos_de_madrid_xcpf2d.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/universidad_carlos_de_madrid_xcpf2d.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:03:25.410] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/universidad_de_Valladolid_ikyu4d.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/universidad_de_Valladolid_ikyu4d.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:03:25.411] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/university_of_sydney_vuktjo.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/university_of_sydney_vuktjo.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:03:57.813] Browser WARN    Image with src "/_next/static/media/usc_notm3b.c870d0f3.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:04:07.947] Server  LOG     ✓ Compiled in 207ms
+[00:05:33.862] Browser WARN    Image with src "/_next/static/media/young-women-walking-talking-street.25c367ad.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:05:35.693] Browser WARN    Image with src "/_next/static/media/happy-students-near-university-campus.5c241717.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:55.861] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/hec_paris_f7r1en.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/hec_paris_f7r1en.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:16:55.863] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/n_u_singapore_odfhwz.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/n_u_singapore_odfhwz.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:16:55.863] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/u_o_oxford_ku4ude.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/u_o_oxford_ku4ude.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:16:55.864] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/universiata_d_Alacant_zuma89.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/universiata_d_Alacant_zuma89.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:16:55.864] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/universidad_carlos_de_madrid_xcpf2d.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/universidad_carlos_de_madrid_xcpf2d.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:16:55.865] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/universidad_de_Valladolid_ikyu4d.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/universidad_de_Valladolid_ikyu4d.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:16:55.865] Server  WARN    ⚠ ./src/assests/UniversityImageLogo/university_of_sydney_vuktjo.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assests/UniversityImageLogo/university_of_sydney_vuktjo.avif
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:16:55.980] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:57.544] Browser LOG     Navbar Auth Debug: {"contextToken":false,"contextUser":null,"currentUser":null,"hasLocalStorageToken":false,"hasLocalStorageUser":false,"isAuthenticated":false,"isUserAuthenticated":false}

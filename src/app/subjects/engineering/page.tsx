@@ -420,7 +420,7 @@ export default function EngineeringPage() {
                       />
                     </div>
                     <div className="p-4">
-                      <h3 className="text-lg font-bold text-[#424242] group-hover:text-[#1BB685] transition-colors">
+                      <h3 className="text-lg font-bold text-[#424242] group-hover:text-[#C8102E] transition-colors">
                         {subject.title}
                       </h3>
                     </div>
@@ -446,7 +446,7 @@ export default function EngineeringPage() {
                       />
                     </div>
                     <div className="p-4">
-                      <h3 className="text-lg font-bold text-[#424242] group-hover:text-[#1BB685] transition-colors">
+                      <h3 className="text-lg font-bold text-[#424242] group-hover:text-[#C8102E] transition-colors">
                         {subject.title}
                       </h3>
                     </div>
@@ -460,4 +460,5 @@ export default function EngineeringPage() {
     </div>
   )
 }
+
 

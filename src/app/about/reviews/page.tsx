@@ -222,7 +222,7 @@ export default function ReviewsPage() {
                       <p className="text-sm text-muted-foreground mb-2">
                         {review.location}
                       </p>
-                      <p className="text-xs text-[#1BB685] font-medium mb-3">
+                      <p className="text-xs text-[#C8102E] font-medium mb-3">
                         {review.program}
                       </p>
                       <div className="flex items-center gap-1">
@@ -248,7 +248,7 @@ export default function ReviewsPage() {
         </section>
 
         {/* Call to Action */}
-        <section className="mt-12 bg-gradient-to-r from-[#1BB685]/10 to-[#1BB685]/5 border border-[#1BB685]/20 rounded-lg p-8 md:p-12 text-center">
+        <section className="mt-12 bg-gradient-to-r from-[#C8102E]/10 to-[#C8102E]/5 border border-[#C8102E]/20 rounded-lg p-8 md:p-12 text-center">
           <h2 className="text-2xl md:text-3xl font-bold text-[#424242] mb-4">
             Ready to Join Our Success Stories?
           </h2>
@@ -257,12 +257,12 @@ export default function ReviewsPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/apply">
-              <button className="bg-[#1BB685] hover:bg-[#1BB685]/90 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+              <button className="bg-[#C8102E] hover:bg-[#C8102E]/90 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
                 Apply Now
               </button>
             </Link>
             <Link href="/contact">
-              <button className="border-2 border-[#1BB685] text-[#1BB685] hover:bg-[#1BB685]/10 px-8 py-3 rounded-lg font-semibold transition-colors">
+              <button className="border-2 border-[#C8102E] text-[#C8102E] hover:bg-[#C8102E]/10 px-8 py-3 rounded-lg font-semibold transition-colors">
                 Contact Us
               </button>
             </Link>
@@ -272,4 +272,5 @@ export default function ReviewsPage() {
     </div>
   )
 }
+
 

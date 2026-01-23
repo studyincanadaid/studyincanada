@@ -315,7 +315,7 @@ const Navbar = () => {
             <div>
               <button
                 onClick={() => toggleMobileSubmenu('destinations')}
-                className="w-full flex items-center justify-between gap-3 py-3 px-4 text-white text-sm font-semibold uppercase border-b border-teal-600/50 hover:bg-teal-600/50 transition-colors"
+                className="w-full flex items-center justify-between gap-3 py-3 px-4 text-white text-sm font-semibold uppercase border-b border-red-600/50 hover:bg-red-600/50 transition-colors"
               >
                 <div className="flex items-center gap-3">
               <Globe className="h-5 w-5" />
@@ -328,18 +328,18 @@ const Navbar = () => {
                 )}
               </button>
               {openMobileSubmenu === 'destinations' && (
-                <div className="bg-teal-700/30 border-b border-teal-600/50">
+                <div className="bg-red-700/30 border-b border-red-600/50">
                   {/* ASIA */}
                   <div className="px-4 py-2">
                     <div className="text-xs font-bold text-white/80 uppercase mb-2">ASIA</div>
                     <div className="space-y-1 pl-4">
-                      <Link href="/destinations/japan" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/destinations/japan" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Japan
             </Link>
-                      <Link href="/destinations/china" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/destinations/china" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         China
                       </Link>
-                      <Link href="/destinations/south-korea" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/destinations/south-korea" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         South Korea
                       </Link>
                     </div>
@@ -348,16 +348,16 @@ const Navbar = () => {
                   <div className="px-4 py-2">
                     <div className="text-xs font-bold text-white/80 uppercase mb-2">EUROPE</div>
                     <div className="space-y-1 pl-4">
-                      <Link href="/destinations/united-kingdom" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/destinations/united-kingdom" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         United Kingdom
                       </Link>
-                      <Link href="/destinations/france" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/destinations/france" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         France
                       </Link>
-                      <Link href="/destinations/germany" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/destinations/germany" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Germany
                       </Link>
-                      <Link href="/destinations/italy" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/destinations/italy" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Italy
                       </Link>
                     </div>
@@ -366,16 +366,16 @@ const Navbar = () => {
                   <div className="px-4 py-2">
                     <div className="text-xs font-bold text-white/80 uppercase mb-2">NORTH AMERICA</div>
                     <div className="space-y-1 pl-4">
-                      <Link href="/destinations/united-states" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/destinations/united-states" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         United States
                       </Link>
-                      <Link href="/destinations/canada" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/destinations/canada" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Canada
                       </Link>
-                      <Link href="/destinations/mexico" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/destinations/mexico" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Mexico
                       </Link>
-                      <Link href="/destinations/costa-rica" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/destinations/costa-rica" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Costa Rica
                       </Link>
                     </div>
@@ -384,16 +384,16 @@ const Navbar = () => {
                   <div className="px-4 py-2">
                     <div className="text-xs font-bold text-white/80 uppercase mb-2">SOUTH AMERICA</div>
                     <div className="space-y-1 pl-4">
-                      <Link href="/destinations/argentina" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/destinations/argentina" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Argentina
                       </Link>
-                      <Link href="/destinations/brazil" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/destinations/brazil" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Brazil
                       </Link>
-                      <Link href="/destinations/chile" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/destinations/chile" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Chile
                       </Link>
-                      <Link href="/destinations/colombia" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/destinations/colombia" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Colombia
                       </Link>
                     </div>
@@ -402,10 +402,10 @@ const Navbar = () => {
                   <div className="px-4 py-2">
                     <div className="text-xs font-bold text-white/80 uppercase mb-2">OCEANIA</div>
                     <div className="space-y-1 pl-4">
-                      <Link href="/destinations/australia" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/destinations/australia" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Australia
                       </Link>
-                      <Link href="/destinations/new-zealand" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/destinations/new-zealand" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         New Zealand
                       </Link>
                     </div>
@@ -418,7 +418,7 @@ const Navbar = () => {
             <div>
               <button
                 onClick={() => toggleMobileSubmenu('subjects')}
-                className="w-full flex items-center justify-between gap-3 py-3 px-4 text-white text-sm font-semibold uppercase border-b border-teal-600/50 hover:bg-teal-600/50 transition-colors"
+                className="w-full flex items-center justify-between gap-3 py-3 px-4 text-white text-sm font-semibold uppercase border-b border-red-600/50 hover:bg-red-600/50 transition-colors"
               >
                 <div className="flex items-center gap-3">
               <BookOpen className="h-5 w-5" />
@@ -431,23 +431,23 @@ const Navbar = () => {
                 )}
               </button>
               {openMobileSubmenu === 'subjects' && (
-                <div className="bg-teal-700/30 border-b border-teal-600/50">
+                <div className="bg-red-700/30 border-b border-red-600/50">
                   <div className="px-4 py-2">
                     <div className="text-xs font-bold text-white/80 uppercase mb-2">ENGINEERING</div>
                     <div className="space-y-1 pl-4">
-                      <Link href="/subjects/art-design" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/subjects/art-design" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Art & Design
             </Link>
-                      <Link href="/subjects/business-economics" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/subjects/business-economics" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Business & Economics
                       </Link>
-                      <Link href="/subjects/communications" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/subjects/communications" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Communications
                       </Link>
-                      <Link href="/subjects/education" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/subjects/education" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Education
                       </Link>
-                      <Link href="/subjects/engineering" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/subjects/engineering" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Engineering
                       </Link>
                     </div>
@@ -455,19 +455,19 @@ const Navbar = () => {
                   <div className="px-4 py-2">
                     <div className="text-xs font-bold text-white/80 uppercase mb-2">SCIENCES</div>
                     <div className="space-y-1 pl-4">
-                      <Link href="/subjects/health" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/subjects/health" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Health
                       </Link>
-                      <Link href="/subjects/humanities" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/subjects/humanities" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Humanities
                       </Link>
-                      <Link href="/subjects/international-studies" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/subjects/international-studies" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         International Studies
                       </Link>
-                      <Link href="/subjects/math" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/subjects/math" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Math
                       </Link>
-                      <Link href="/subjects/natural-applied-sciences" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/subjects/natural-applied-sciences" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Natural & Applied Sciences
                       </Link>
                     </div>
@@ -475,16 +475,16 @@ const Navbar = () => {
                   <div className="px-4 py-2">
                     <div className="text-xs font-bold text-white/80 uppercase mb-2">SOCIAL & CULTURAL</div>
                     <div className="space-y-1 pl-4">
-                      <Link href="/subjects/social-sciences" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/subjects/social-sciences" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Social Sciences
                       </Link>
-                      <Link href="/subjects/tourism-hospitality" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/subjects/tourism-hospitality" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Tourism and Hospitality
                       </Link>
-                      <Link href="/subjects/visual-performing-arts" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/subjects/visual-performing-arts" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Visual and Performing Arts
                       </Link>
-                      <Link href="/subjects/world-languages" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/subjects/world-languages" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         World Languages
                       </Link>
                     </div>
@@ -498,7 +498,7 @@ const Navbar = () => {
             <div>
               <button
                 onClick={() => toggleMobileSubmenu('terms')}
-                className="w-full flex items-center justify-between gap-3 py-3 px-4 text-white text-sm font-semibold uppercase border-b border-teal-600/50 hover:bg-teal-600/50 transition-colors"
+                className="w-full flex items-center justify-between gap-3 py-3 px-4 text-white text-sm font-semibold uppercase border-b border-red-600/50 hover:bg-red-600/50 transition-colors"
               >
                 <div className="flex items-center gap-3">
               <Calendar className="h-5 w-5" />
@@ -511,21 +511,21 @@ const Navbar = () => {
                 )}
               </button>
               {openMobileSubmenu === 'terms' && (
-                <div className="bg-teal-700/30 border-b border-teal-600/50">
+                <div className="bg-red-700/30 border-b border-red-600/50">
                   <div className="space-y-1 pl-4 py-2">
-                    <Link href="/terms/academic-year" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                    <Link href="/terms/academic-year" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                       Academic Year
             </Link>
-                    <Link href="/terms/fall-semester" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                    <Link href="/terms/fall-semester" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                       Fall Semester
                     </Link>
-                    <Link href="/terms/spring-semester" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                    <Link href="/terms/spring-semester" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                       Spring Semester
                     </Link>
-                    <Link href="/terms/summer-break" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                    <Link href="/terms/summer-break" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                       Summer Break
                     </Link>
-                    <Link href="/terms/winter-break" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                    <Link href="/terms/winter-break" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                       Winter Break
                     </Link>
                   </div>
@@ -537,7 +537,7 @@ const Navbar = () => {
             <div>
               <button
                 onClick={() => toggleMobileSubmenu('how-it-works')}
-                className="w-full flex items-center justify-between gap-3 py-3 px-4 text-white text-sm font-semibold uppercase border-b border-teal-600/50 hover:bg-teal-600/50 transition-colors"
+                className="w-full flex items-center justify-between gap-3 py-3 px-4 text-white text-sm font-semibold uppercase border-b border-red-600/50 hover:bg-red-600/50 transition-colors"
               >
                 <div className="flex items-center gap-3">
               <Settings className="h-5 w-5" />
@@ -550,20 +550,20 @@ const Navbar = () => {
                 )}
               </button>
               {openMobileSubmenu === 'how-it-works' && (
-                <div className="bg-teal-700/30 border-b border-teal-600/50">
+                <div className="bg-red-700/30 border-b border-red-600/50">
                   <div className="px-4 py-2">
                     <div className="text-xs font-bold text-white/80 uppercase mb-2">HOW IT WORKS</div>
                     <div className="space-y-1 pl-4">
-                      <Link href="/how-it-works/pick-program" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/how-it-works/pick-program" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         How to Pick a Program
             </Link>
-                      <Link href="/how-it-works/apply" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/how-it-works/apply" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         How to Apply
                       </Link>
-                      <Link href="/how-it-works/costs-deadlines" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/how-it-works/costs-deadlines" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Costs and Deadlines
                       </Link>
-                      <Link href="/how-it-works/online-application" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/how-it-works/online-application" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Online Application
                       </Link>
                     </div>
@@ -571,16 +571,16 @@ const Navbar = () => {
                   <div className="px-4 py-2">
                     <div className="text-xs font-bold text-white/80 uppercase mb-2">AFTER APPLYING</div>
                     <div className="space-y-1 pl-4">
-                      <Link href="/how-it-works/what-to-expect" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/how-it-works/what-to-expect" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         What to Expect After Applying
                       </Link>
-                      <Link href="/how-it-works/what-you-get" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/how-it-works/what-you-get" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         What You Get
                       </Link>
-                      <Link href="/how-it-works/what-youll-need" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/how-it-works/what-youll-need" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         What You'll Need
                       </Link>
-                      <Link href="/how-it-works/cancellation-policy" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/how-it-works/cancellation-policy" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Cancellation Policy
                       </Link>
                     </div>
@@ -588,22 +588,22 @@ const Navbar = () => {
                   <div className="px-4 py-2">
                     <div className="text-xs font-bold text-white/80 uppercase mb-2">THINGS YOU'LL NEED</div>
                     <div className="space-y-1 pl-4">
-                      <Link href="/how-it-works/pre-departure-checklist" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/how-it-works/pre-departure-checklist" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Pre-Departure Checklist
                       </Link>
-                      <Link href="/how-it-works/passport" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/how-it-works/passport" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         How to Get a Passport
                       </Link>
-                      <Link href="/how-it-works/visa" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/how-it-works/visa" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Visa Information
                       </Link>
-                      <Link href="/how-it-works/flights" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/how-it-works/flights" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Booking Flights
                       </Link>
-                      <Link href="/how-it-works/travel-insurance" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/how-it-works/travel-insurance" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Travel Insurance
                       </Link>
-                      <Link href="/how-it-works/traveler-guide" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/how-it-works/traveler-guide" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Traveler Guide
                       </Link>
                     </div>
@@ -611,22 +611,22 @@ const Navbar = () => {
                   <div className="px-4 py-2">
                     <div className="text-xs font-bold text-white/80 uppercase mb-2">FUNDING YOUR PROGRAM</div>
                     <div className="space-y-1 pl-4">
-                      <Link href="/how-it-works/what-youre-paying-for" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/how-it-works/what-youre-paying-for" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         What You're Paying For
                       </Link>
-                      <Link href="/how-it-works/how-to-pay" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/how-it-works/how-to-pay" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         How to Pay for Study abroad
                       </Link>
-                      <Link href="/how-it-works/scholarships" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/how-it-works/scholarships" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Scholarships
                       </Link>
-                      <Link href="/how-it-works/grants" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/how-it-works/grants" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Grants
                       </Link>
-                      <Link href="/how-it-works/financial-aid" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/how-it-works/financial-aid" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Paying with Financial Aid
                       </Link>
-                      <Link href="/how-it-works/crowdfunding" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                      <Link href="/how-it-works/crowdfunding" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                         Crowdfunding Guide
                       </Link>
                     </div>
@@ -639,7 +639,7 @@ const Navbar = () => {
             <div>
               <button
                 onClick={() => toggleMobileSubmenu('about')}
-                className="w-full flex items-center justify-between gap-3 py-3 px-4 text-white text-sm font-semibold uppercase border-b border-teal-600/50 hover:bg-teal-600/50 transition-colors"
+                className="w-full flex items-center justify-between gap-3 py-3 px-4 text-white text-sm font-semibold uppercase border-b border-red-600/50 hover:bg-red-600/50 transition-colors"
               >
                 <div className="flex items-center gap-3">
               <Info className="h-5 w-5" />
@@ -652,24 +652,24 @@ const Navbar = () => {
                 )}
               </button>
               {openMobileSubmenu === 'about' && (
-                <div className="bg-teal-700/30 border-b border-teal-600/50">
+                <div className="bg-red-700/30 border-b border-red-600/50">
                   <div className="space-y-1 pl-4 py-2">
-                    <Link href="/about" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                    <Link href="/about" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                       About goStudy
             </Link>
-                    <Link href="/about/reviews" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                    <Link href="/about/reviews" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                       Study Abroad Reviews
                     </Link>
-                    <Link href="/about/health-safety" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                    <Link href="/about/health-safety" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                       Health & Safety Abroad
                     </Link>
-                    <Link href="/about/blogs" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                    <Link href="/about/blogs" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                       Blogs and Resources
                     </Link>
-                    <Link href="/about/faq" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                    <Link href="/about/faq" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                       FAQs
                     </Link>
-                    <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-teal-600/30 px-2 rounded">
+                    <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)} className="block py-2 text-sm text-white/90 hover:text-white hover:bg-red-600/30 px-2 rounded">
                       Contact Us
                     </Link>
                   </div>
@@ -682,7 +682,7 @@ const Navbar = () => {
               <>
                 <Link
                   href="/dashboard"
-                  className="flex items-center gap-3 py-3 px-4 text-white text-sm font-semibold uppercase border-b border-teal-600/50 hover:bg-teal-600/50 transition-colors"
+                  className="flex items-center gap-3 py-3 px-4 text-white text-sm font-semibold uppercase border-b border-red-600/50 hover:bg-red-600/50 transition-colors"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   <BookOpen className="h-5 w-5" />
@@ -690,7 +690,7 @@ const Navbar = () => {
                 </Link>
                 <Link
                   href="/profile"
-                  className="flex items-center gap-3 py-3 px-4 text-white text-sm font-semibold uppercase border-b border-teal-600/50 hover:bg-teal-600/50 transition-colors"
+                  className="flex items-center gap-3 py-3 px-4 text-white text-sm font-semibold uppercase border-b border-red-600/50 hover:bg-red-600/50 transition-colors"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   <User className="h-5 w-5" />
@@ -701,7 +701,7 @@ const Navbar = () => {
                     handleLogout()
                     setIsMobileMenuOpen(false)
                   }}
-                  className="flex items-center gap-3 py-3 px-4 text-white text-sm font-semibold uppercase border-b border-teal-600/50 hover:bg-teal-600/50 transition-colors w-full text-left"
+                  className="flex items-center gap-3 py-3 px-4 text-white text-sm font-semibold uppercase border-b border-red-600/50 hover:bg-red-600/50 transition-colors w-full text-left"
                 >
                   <LogOut className="h-5 w-5" />
                   LOGOUT
@@ -710,7 +710,7 @@ const Navbar = () => {
             ) : (
               <Link
                 href="/login"
-                className="flex items-center gap-3 py-3 px-4 text-white text-sm font-semibold uppercase border-b border-teal-600/50 bg-[#1BB685] hover:bg-[#1BB685]/90 transition-colors"
+                className="flex items-center gap-3 py-3 px-4 text-white text-sm font-semibold uppercase border-b border-red-600/50 bg-[#C8102E] hover:bg-[#C8102E]/90 transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 <LogIn className="h-5 w-5" />
@@ -720,13 +720,13 @@ const Navbar = () => {
           </div>
 
           {/* Social Media Icons */}
-          <div className="py-6 px-4 border-t border-teal-600/50">
+          <div className="py-6 px-4 border-t border-red-600/50">
             <div className="flex items-center justify-center gap-3">
               <a
                 href="https://facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-teal-600/50 transition-colors group"
+                className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-red-600/50 transition-colors group"
                 aria-label="Facebook"
               >
                 <Facebook className="h-5 w-5 text-[#0D9488] group-hover:text-white" />
@@ -735,7 +735,7 @@ const Navbar = () => {
                 href="https://youtube.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-teal-600/50 transition-colors group"
+                className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-red-600/50 transition-colors group"
                 aria-label="YouTube"
               >
                 <Youtube className="h-5 w-5 text-[#0D9488] group-hover:text-white" />
@@ -744,7 +744,7 @@ const Navbar = () => {
                 href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-teal-600/50 transition-colors group"
+                className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-red-600/50 transition-colors group"
                 aria-label="Instagram"
               >
                 <Instagram className="h-5 w-5 text-[#0D9488] group-hover:text-white" />
@@ -753,7 +753,7 @@ const Navbar = () => {
                 href="https://tiktok.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-teal-600/50 transition-colors group"
+                className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-red-600/50 transition-colors group"
                 aria-label="TikTok"
               >
                 <svg className="h-5 w-5 text-[#0D9488] group-hover:text-white" viewBox="0 0 24 24" fill="currentColor">
@@ -762,7 +762,7 @@ const Navbar = () => {
               </a>
               <a
                 href="mailto:info@gostudy.com"
-                className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-teal-600/50 transition-colors group"
+                className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-red-600/50 transition-colors group"
                 aria-label="Email"
               >
                 <Mail className="h-5 w-5 text-[#0D9488] group-hover:text-white" />
@@ -799,7 +799,7 @@ const Navbar = () => {
                     priority
                   />
                 </div>
-                <h1 className="text-lg sm:text-xl md:text-2xl font-bold text-primary">BideshStudy</h1>
+                <h1 className="text-lg sm:text-xl md:text-2xl font-bold text-primary">StudyinCanada.ID</h1>
               </Link>
               
               {/* Profile button on left side (desktop only) */}
@@ -1427,7 +1427,7 @@ const Navbar = () => {
               {/* Login button - show if not authenticated */}
               {!isUserAuthenticated && (
                 <Link href="/login">
-                  <Button variant="default" size="sm" className="text-xs sm:text-sm bg-[#1BB685] hover:bg-[#1BB685]/90 text-white">
+                  <Button variant="default" size="sm" className="text-xs sm:text-sm bg-[#C8102E] hover:bg-[#C8102E]/90 text-white">
                     <LogIn className="h-3 w-3 sm:h-4 sm:w-4 mr-1" />
                     LOGIN
                   </Button>
@@ -1456,3 +1456,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+

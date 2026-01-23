@@ -9,7 +9,7 @@ export function SocialCard() {
           {/* Left Side - Domain Name */}
           <div className="flex items-center">
             <h3 className="text-lg md:text-xl font-bold text-foreground">
-              bideshstudy.com
+              studyincanada.id
             </h3>
           </div>
 
@@ -60,4 +60,5 @@ export function SocialCard() {
     </div>
   )
 }
+
 

@@ -130,7 +130,7 @@ export function UniversityTabs({
                           <span className="font-semibold">Language:</span> {program.language}
                         </p>
                       )}
-                      <p className="text-lg font-bold text-[#1BB685]">
+                      <p className="text-lg font-bold text-[#C8102E]">
                         {program.fee}
                       </p>
                     </div>
@@ -167,4 +167,5 @@ export function UniversityTabs({
     </>
   )
 }
+
 

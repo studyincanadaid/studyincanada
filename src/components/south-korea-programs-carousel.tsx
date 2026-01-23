@@ -92,7 +92,7 @@ export function SouthKoreaProgramsCarousel() {
                   <p className="text-foreground mb-2 md:mb-4 text-sm leading-relaxed flex-grow">
                     {program.description}
                   </p>
-                  <div className="bg-[#1BB685] rounded-b p-4 absolute left-0 right-0 bottom-0 flex items-center justify-between w-full">
+                  <div className="bg-[#C8102E] rounded-b p-4 absolute left-0 right-0 bottom-0 flex items-center justify-between w-full">
                     <p className="text-sm md:text-lg font-bold text-white">
                       <span className="md:hidden">Fee: {program.fee}</span>
                       <span className="hidden md:inline">Program Fee: {program.fee}</span>
@@ -114,4 +114,5 @@ export function SouthKoreaProgramsCarousel() {
     </Carousel>
   )
 }
+
 

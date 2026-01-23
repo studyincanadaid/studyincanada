@@ -350,7 +350,7 @@ const BlogsAndResourcesSection = () => {
                 className={`
                   px-4 md:px-6 py-2 md:py-3 rounded-full text-sm md:text-base font-medium whitespace-nowrap transition-all duration-300
                   ${selectedCategory === category
-                    ? "bg-[#1BB685] text-white shadow-md"
+                    ? "bg-[#C8102E] text-white shadow-md"
                     : "bg-white text-[#424242] border border-border hover:bg-muted"
                   }
                 `}
@@ -612,7 +612,7 @@ export default function Home() {
             >
               <Button 
                 size="lg" 
-                className="w-full h-full text-base md:text-lg px-6 py-4 flex items-center justify-center gap-2 bg-[#282F4A] hover:bg-[#282F4A]/90 transition-colors text-white rounded-[20px]"
+                className="w-full h-full text-base md:text-lg px-6 py-4 flex items-center justify-center gap-2 bg-[#C8102E] hover:bg-[#C8102E]/90 transition-colors text-white rounded-[20px]"
                 onClick={() => {
                   router.push("/search?filter-term=1695")
                 }}
@@ -804,16 +804,27 @@ export default function Home() {
                     {program.title}
                   </h3>
                   <p className="text-sm text-muted-foreground mb-3 flex items-center gap-1">
-                    <span className="inline-block w-1.5 h-1.5 rounded-full bg-[#1BB685]"></span>
+                    <span className="inline-block w-1.5 h-1.5 rounded-full bg-[#C8102E]"></span>
                     {program.duration}
                   </p>
                   <p className="text-base text-[#424242] leading-relaxed mb-4 flex-grow line-clamp-2">
                     {program.description}
                   </p>
                   <div className="mt-auto pt-4 border-t border-border/50">
-                    <p className="text-lg font-semibold text-[#1BB685] bg-[#1BB685]/10 hover:bg-[#1BB685]/20 px-4 py-2.5 rounded-lg inline-block transition-colors duration-300">
-                      {program.price}
-                    </p>
+                    <button
+                      onClick={(e) => {
+                        e.preventDefault()
+                        const message = encodeURIComponent(
+                          `Hi StudyinCanada.ID, I'm interested in the following program:\n\n` +
+                          `Program: ${program.title}\n` +
+                          `Duration: ${program.duration}`
+                        )
+                        window.open(`https://wa.me/62881037405908?text=${message}`, '_blank')
+                      }}
+                      className="text-lg font-semibold text-white bg-red-600 hover:bg-red-700 px-4 py-2.5 rounded-lg inline-block transition-colors duration-300"
+                    >
+                      Request Info
+                    </button>
                   </div>
                 </div>
               </Link>
@@ -861,7 +872,7 @@ export default function Home() {
                   <h3 className="text-lg font-semibold text-[#424242] mb-2 group-hover:text-primary transition-colors">
                     {scholarship.title}
                   </h3>
-                  <Link href={scholarship.url} className="text-[#1BB685] font-medium underline text-sm mt-auto flex items-center gap-1 w-fit hover:text-[#1BB685]/80 transition-colors">
+                  <Link href={scholarship.url} className="text-[#C8102E] font-medium underline text-sm mt-auto flex items-center gap-1 w-fit hover:text-[#C8102E]/80 transition-colors">
                     Read more
                     <ChevronRight className="h-4 w-4" />
                   </Link>
@@ -870,7 +881,7 @@ export default function Home() {
             ))}
           </div>
           <div className="text-right">
-            <Link href="/scholarships" className="text-[#1BB685] font-medium underline text-sm inline-flex items-center gap-1 hover:text-[#1BB685]/80 transition-colors">
+            <Link href="/scholarships" className="text-[#C8102E] font-medium underline text-sm inline-flex items-center gap-1 hover:text-[#C8102E]/80 transition-colors">
               View all scholarships
             </Link>
           </div>
@@ -1611,3 +1622,4 @@ export default function Home() {
     </div>
   )
 }
+

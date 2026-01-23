@@ -34,7 +34,7 @@ const Footer = () => {
                 />
               </div>
               <h2 className="text-2xl md:text-3xl font-bold text-primary">
-                BideshStudy
+                StudyinCanada.ID
               </h2>
             </Link>
             <p className="text-muted-foreground leading-relaxed text-xs md:text-base">
@@ -53,7 +53,7 @@ const Footer = () => {
                   </p>
                   <p className="text-muted-foreground text-xs md:text-base flex items-center gap-2">
                     <Mail className="h-4 w-4" />
-                    info@bideshstudy.com
+                    info@studyincanada.id
                   </p>
                 </div>
                 <div className="absolute right-0 top-6 md:top-2 bottom-0 w-px bg-border"></div>
@@ -201,9 +201,9 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="mt-4 md:mt-12 pt-2 md:pt-6 border-t">
           <div className="flex flex-col sm:flex-row justify-center items-center gap-2 text-sm text-muted-foreground">
-            <span className="font-bold text-primary">BideshStudy</span>
+            <span className="font-bold text-primary">StudyinCanada.ID</span>
             <span className="hidden sm:inline">|</span>
-            <span>© 2025 bideshstudy.com. All rights reserved.</span>
+            <span>© 2025 StudyinCanada.ID. All rights reserved.</span>
             <span className="hidden sm:inline">|</span>
             <Link href="/privacy" className="hover:text-primary transition-colors">
               Privacy Policy
@@ -216,3 +216,4 @@ const Footer = () => {
 }
 
 export default Footer
+

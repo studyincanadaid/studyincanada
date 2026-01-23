@@ -58,11 +58,11 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-[#1BB685]/10 via-background to-background border-b border-border">
+      <div className="bg-gradient-to-br from-[#C8102E]/10 via-background to-background border-b border-border">
         <div className="max-w-7xl mx-auto px-4 py-12 md:py-16">
           <div className="text-center mb-8 space-y-4">
             <h1 className="text-4xl md:text-5xl font-bold text-[#424242] mb-4">
-              About BideshStudy
+              About StudyinCanada.ID
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Empowering students to achieve their dreams of studying abroad with expert guidance, comprehensive support, and global opportunities.
@@ -84,7 +84,7 @@ export default function AboutPage() {
           {stats.map((stat, index) => (
             <Card key={index} className="border-border/50 text-center">
               <CardContent className="p-6">
-                <div className="text-3xl md:text-4xl font-bold text-[#1BB685] mb-2">
+                <div className="text-3xl md:text-4xl font-bold text-[#C8102E] mb-2">
                   {stat.number}
                 </div>
                 <div className="text-sm md:text-base text-muted-foreground">
@@ -103,7 +103,7 @@ export default function AboutPage() {
             </h2>
             <div className="space-y-4 text-base md:text-lg text-muted-foreground leading-relaxed">
               <p>
-                BideshStudy was founded with a simple yet powerful mission: to make quality international education accessible to students everywhere. We believe that studying abroad is a transformative experience that opens doors to new opportunities, cultures, and perspectives.
+                StudyinCanada.ID was founded with a simple yet powerful mission: to make quality international education accessible to students everywhere. We believe that studying abroad is a transformative experience that opens doors to new opportunities, cultures, and perspectives.
               </p>
               <p>
                 What started as a small team passionate about education has grown into a trusted partner for thousands of students worldwide. We've built strong relationships with premier universities and institutions across the globe, enabling us to offer a wide range of study abroad programs.
@@ -121,7 +121,7 @@ export default function AboutPage() {
             <Card className="border-border/50">
               <CardContent className="p-6 md:p-8">
                 <div className="flex items-center gap-3 mb-4">
-                  <Target className="h-6 w-6 text-[#1BB685]" />
+                  <Target className="h-6 w-6 text-[#C8102E]" />
                   <h3 className="text-xl md:text-2xl font-bold text-[#424242]">
                     Our Mission
                   </h3>
@@ -135,7 +135,7 @@ export default function AboutPage() {
             <Card className="border-border/50">
               <CardContent className="p-6 md:p-8">
                 <div className="flex items-center gap-3 mb-4">
-                  <Heart className="h-6 w-6 text-[#1BB685]" />
+                  <Heart className="h-6 w-6 text-[#C8102E]" />
                   <h3 className="text-xl md:text-2xl font-bold text-[#424242]">
                     Our Vision
                   </h3>
@@ -160,8 +160,8 @@ export default function AboutPage() {
                 <Card key={index} className="border-border/50 hover:shadow-lg transition-shadow">
                   <CardContent className="p-6">
                     <div className="flex items-start gap-4">
-                      <div className="p-3 rounded-lg bg-[#1BB685]/10 flex-shrink-0">
-                        <Icon className="h-6 w-6 text-[#1BB685]" />
+                      <div className="p-3 rounded-lg bg-[#C8102E]/10 flex-shrink-0">
+                        <Icon className="h-6 w-6 text-[#C8102E]" />
                       </div>
                       <div>
                         <h3 className="text-xl font-semibold text-[#424242] mb-2">
@@ -182,12 +182,12 @@ export default function AboutPage() {
         {/* Why Choose Us */}
         <section className="mb-12">
           <h2 className="text-2xl md:text-3xl font-bold text-[#424242] mb-6 text-center">
-            Why Choose BideshStudy?
+            Why Choose StudyinCanada.ID?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {whyChooseUs.map((item, index) => (
-              <div key={index} className="flex items-start gap-4 p-6 border border-border/50 rounded-lg hover:border-[#1BB685]/50 transition-colors">
-                <CheckCircle2 className="h-5 w-5 text-[#1BB685] mt-1 flex-shrink-0" />
+              <div key={index} className="flex items-start gap-4 p-6 border border-border/50 rounded-lg hover:border-[#C8102E]/50 transition-colors">
+                <CheckCircle2 className="h-5 w-5 text-[#C8102E] mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="text-lg font-semibold text-[#424242] mb-2">
                     {item.title}
@@ -202,7 +202,7 @@ export default function AboutPage() {
         </section>
 
         {/* Call to Action */}
-        <section className="bg-gradient-to-r from-[#1BB685]/10 to-[#1BB685]/5 border border-[#1BB685]/20 rounded-lg p-8 md:p-12 text-center">
+        <section className="bg-gradient-to-r from-[#C8102E]/10 to-[#C8102E]/5 border border-[#C8102E]/20 rounded-lg p-8 md:p-12 text-center">
           <h2 className="text-2xl md:text-3xl font-bold text-[#424242] mb-4">
             Ready to Start Your Journey?
           </h2>
@@ -211,7 +211,7 @@ export default function AboutPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/apply">
-              <Button size="lg" className="bg-[#1BB685] hover:bg-[#1BB685]/90 text-white">
+              <Button size="lg" className="bg-[#C8102E] hover:bg-[#C8102E]/90 text-white">
                 Apply Now
                 <ArrowRight className="h-4 w-4 ml-2" />
               </Button>
@@ -227,4 +227,5 @@ export default function AboutPage() {
     </div>
   )
 }
+
 

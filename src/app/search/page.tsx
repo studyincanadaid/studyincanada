@@ -517,7 +517,7 @@ function SearchContent() {
               {hasActiveFilters && (
                 <button
                   onClick={clearAllFilters}
-                  className="flex items-center gap-2 text-sm text-[#424242] hover:text-[#1BB685] transition-colors"
+                  className="flex items-center gap-2 text-sm text-[#424242] hover:text-[#C8102E] transition-colors"
                 >
                   <X className="h-4 w-4" />
                   <span>Clear all filters</span>
@@ -557,7 +557,7 @@ function SearchContent() {
                           value={option.value}
                           checked={filters.budget === option.value}
                           onChange={() => handleBudgetChange(option.value)}
-                          className="w-4 h-4 text-[#1BB685]"
+                          className="w-4 h-4 text-[#C8102E]"
                         />
                         <span>{option.label}</span>
                       </label>
@@ -692,7 +692,7 @@ function SearchContent() {
                           value={term.value}
                           checked={filters.term === term.value}
                           onChange={() => handleTermChange(term.value)}
-                          className="w-4 h-4 text-[#1BB685]"
+                          className="w-4 h-4 text-[#C8102E]"
                         />
                         <span>{term.label}</span>
                       </label>
@@ -705,7 +705,7 @@ function SearchContent() {
               <div className="space-y-2 pt-4">
                 <Button
                   onClick={applyFilters}
-                  className="w-full bg-[#1BB685] hover:bg-[#1BB685]/90 text-white"
+                  className="w-full bg-[#C8102E] hover:bg-[#C8102E]/90 text-white"
                 >
                   Search for program
                 </Button>
@@ -790,3 +790,4 @@ export default function SearchPage() {
     </Suspense>
   )
 }
+

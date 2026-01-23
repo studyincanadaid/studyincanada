@@ -118,8 +118,8 @@ export default function ContactPage() {
     {
       icon: Mail,
       title: "Email",
-      content: "info@bideshstudy.com",
-      link: "mailto:info@bideshstudy.com",
+      content: "info@studyincanada.id",
+      link: "mailto:info@studyincanada.id",
     },
     {
       icon: MapPin,
@@ -162,8 +162,8 @@ export default function ContactPage() {
                     const Icon = info.icon
                     return (
                       <div key={index} className="flex items-start gap-4">
-                        <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[#1BB685]/10 flex items-center justify-center">
-                          <Icon className="h-6 w-6 text-[#1BB685]" />
+                        <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[#C8102E]/10 flex items-center justify-center">
+                          <Icon className="h-6 w-6 text-[#C8102E]" />
                         </div>
                         <div className="flex-1">
                           <h3 className="font-semibold text-[#424242] mb-1">
@@ -172,7 +172,7 @@ export default function ContactPage() {
                           {info.link ? (
                             <a
                               href={info.link}
-                              className="text-muted-foreground hover:text-[#1BB685] transition-colors"
+                              className="text-muted-foreground hover:text-[#C8102E] transition-colors"
                             >
                               {info.content}
                             </a>
@@ -188,26 +188,26 @@ export default function ContactPage() {
             </Card>
 
             {/* Additional Info Card */}
-            <Card className="border-border bg-gradient-to-br from-[#1BB685]/5 to-transparent">
+            <Card className="border-border bg-gradient-to-br from-[#C8102E]/5 to-transparent">
               <CardContent className="p-6">
                 <h3 className="font-semibold text-[#424242] mb-3">
                   Why Choose Us?
                 </h3>
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>Expert guidance from experienced counselors</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>Wide range of programs across 100+ destinations</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>Personalized support throughout your journey</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-[#1BB685] mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-[#C8102E] mt-0.5 flex-shrink-0" />
                     <span>Fast response time - typically within 24 hours</span>
                   </li>
                 </ul>
@@ -341,7 +341,7 @@ export default function ContactPage() {
                   <Button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full md:w-auto bg-[#1BB685] hover:bg-[#1BB685]/90 text-white px-8 py-6 text-base"
+                    className="w-full md:w-auto bg-[#C8102E] hover:bg-[#C8102E]/90 text-white px-8 py-6 text-base"
                   >
                     {isSubmitting ? (
                       <>
@@ -364,4 +364,5 @@ export default function ContactPage() {
     </div>
   )
 }
+
 
