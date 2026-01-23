@@ -23,7 +23,7 @@ import {
 } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "How to Apply - BideshStudy",
+  title: "How to Apply - StudyinCanada.ID",
   description: "Step-by-step guide to applying for study abroad programs. Learn about requirements, documents, deadlines, and the application process.",
 }
 

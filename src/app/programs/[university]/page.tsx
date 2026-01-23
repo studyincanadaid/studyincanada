@@ -627,12 +627,12 @@ export async function generateMetadata({ params }: { params: Promise<{ universit
   
   if (!program) {
     return {
-      title: "Program Not Found - BideshStudy",
+      title: "Program Not Found - StudyinCanada.ID",
     }
   }
 
   return {
-    title: `${program.title} - ${program.university} - BideshStudy`,
+    title: `${program.title} - ${program.university} - StudyinCanada.ID`,
     description: program.description,
   }
 }

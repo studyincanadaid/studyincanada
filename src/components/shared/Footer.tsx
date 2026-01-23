@@ -27,7 +27,7 @@ const Footer = () => {
               <div className="relative w-12 h-12 md:w-16 md:h-16 flex-shrink-0">
                 <Image
                   src="/logo.svg"
-                  alt="BideshStudy Logo"
+                  alt="StudyinCanada.ID Logo"
                   fill
                   className="object-contain"
                   priority

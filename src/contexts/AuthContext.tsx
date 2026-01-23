@@ -102,9 +102,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       setUser(data.user)
       setToken(data.token)
       if (typeof window !== "undefined") {
-        localStorage.setItem("bideshstudy_token", data.token)
-        localStorage.setItem("bideshstudy_user", JSON.stringify(data.user))
-        localStorage.setItem("bideshstudy_auth", "true")
+        localStorage.setItem("StudyinCanada.ID_token", data.token)
+        localStorage.setItem("StudyinCanada.ID_user", JSON.stringify(data.user))
+        localStorage.setItem("StudyinCanada.ID_auth", "true")
         // Dispatch multiple events to ensure all components catch it
         window.dispatchEvent(new Event("authStateChanged"))
         window.dispatchEvent(new Event("localStorageChange"))
@@ -146,9 +146,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       setUser(data.user)
       setToken(data.token)
       if (typeof window !== "undefined") {
-        localStorage.setItem("bideshstudy_token", data.token)
-        localStorage.setItem("bideshstudy_user", JSON.stringify(data.user))
-        localStorage.setItem("bideshstudy_auth", "true")
+        localStorage.setItem("StudyinCanada.ID_token", data.token)
+        localStorage.setItem("StudyinCanada.ID_user", JSON.stringify(data.user))
+        localStorage.setItem("StudyinCanada.ID_auth", "true")
         // Dispatch multiple events to ensure all components catch it
         window.dispatchEvent(new Event("authStateChanged"))
         window.dispatchEvent(new Event("localStorageChange"))

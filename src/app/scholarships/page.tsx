@@ -37,7 +37,7 @@ export default function ScholarshipsPage() {
         {/* Scholarships List */}
         <div className="space-y-6">
           <h2 className="text-2xl md:text-3xl font-bold text-[#424242] mb-6">
-          bideshstudy.com scholarships
+          StudyinCanada.ID.com scholarships
           </h2>
           
           <div className="space-y-4">

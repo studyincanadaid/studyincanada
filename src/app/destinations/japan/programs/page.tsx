@@ -8,7 +8,7 @@ import wasedaUniversity from "@/assests/UniversityFreeImage/wasedaUniversity.jpg
 import kyotoUniversity from "@/assests/UniversityFreeImage/kyotoUniversity.jpg"
 
 export const metadata: Metadata = {
-  title: "All Japan Study Abroad Programs - BideshStudy",
+  title: "All Japan Study Abroad Programs - StudyinCanada.ID",
   description: "Explore all available study abroad programs in Japan. Find the perfect program for your academic journey.",
 }
 

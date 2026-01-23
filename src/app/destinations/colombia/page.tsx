@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Study in Colombia - BideshStudy",
+  title: "Study in Colombia - StudyinCanada.ID",
   description: "Discover study abroad opportunities in Colombia. Explore top universities and programs in Colombia.",
 }
 

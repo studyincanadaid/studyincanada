@@ -32,7 +32,7 @@ import wasedaUniversity from "@/assests/UniversityFreeImage/wasedaUniversity.jpg
 import kyotoUniversity from "@/assests/UniversityFreeImage/kyotoUniversity.jpg"
 
 export const metadata: Metadata = {
-  title: "Study in Japan - BideshStudy",
+  title: "Study in Japan - StudyinCanada.ID",
   description: "Discover study abroad opportunities in Japan. Explore top universities and programs in Japan.",
 }
 

@@ -39,8 +39,8 @@ const Navbar = () => {
     // First check localStorage (updated immediately on login/signup)
     if (typeof window !== "undefined") {
       try {
-        const savedUser = localStorage.getItem("bideshstudy_user")
-        const savedToken = localStorage.getItem("bideshstudy_token")
+        const savedUser = localStorage.getItem("StudyinCanada.ID_user")
+        const savedToken = localStorage.getItem("StudyinCanada.ID_token")
         
         if (savedToken && savedUser && savedUser !== "undefined" && savedUser !== "null") {
           try {
@@ -85,7 +85,7 @@ const Navbar = () => {
     
     // Listen for storage changes (cross-tab sync)
     const handleStorageChange = (e: StorageEvent) => {
-      if (e.key === "bideshstudy_token" || e.key === "bideshstudy_user" || e.key === "bideshstudy_auth") {
+      if (e.key === "StudyinCanada.ID_token" || e.key === "StudyinCanada.ID_user" || e.key === "StudyinCanada.ID_auth") {
         updateAuthState()
       }
     }
@@ -154,8 +154,8 @@ const Navbar = () => {
   const checkAuth = () => {
     // Check localStorage directly (most reliable)
     if (typeof window !== "undefined") {
-      const savedToken = localStorage.getItem("bideshstudy_token")
-      const savedUser = localStorage.getItem("bideshstudy_user")
+      const savedToken = localStorage.getItem("StudyinCanada.ID_token")
+      const savedUser = localStorage.getItem("StudyinCanada.ID_user")
       if (savedToken && savedUser && savedUser !== "undefined" && savedUser !== "null") {
         return true
       }
@@ -171,8 +171,8 @@ const Navbar = () => {
   // Debug: Log auth state for troubleshooting
   useEffect(() => {
     if (typeof window !== "undefined") {
-      const savedUser = localStorage.getItem("bideshstudy_user")
-      const savedToken = localStorage.getItem("bideshstudy_token")
+      const savedUser = localStorage.getItem("StudyinCanada.ID_user")
+      const savedToken = localStorage.getItem("StudyinCanada.ID_token")
       console.log("Navbar Auth Debug:", {
         isAuthenticated,
         currentUser: currentUser ? { email: currentUser.email, name: currentUser.name } : null,
@@ -793,7 +793,7 @@ const Navbar = () => {
                 <div className="relative w-10 h-10 md:w-12 md:h-12 flex-shrink-0">
                   <Image
                     src="/logo.svg"
-                    alt="BideshStudy Logo"
+                    alt="StudyinCanada.ID Logo"
                     fill
                     className="object-contain"
                     priority

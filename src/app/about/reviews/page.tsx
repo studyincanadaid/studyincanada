@@ -13,70 +13,70 @@ export default function ReviewsPage() {
       location: "University of Tokyo, Japan",
       program: "Engineering & Technology",
       rating: 5,
-      comment: "Studying in Japan was a life-changing experience! The support from BideshStudy throughout the application process was incredible. They guided me through every step, from choosing the right program to settling into my new life in Tokyo."
+      comment: "Studying in Japan was a life-changing experience! The support from StudyinCanada.ID throughout the application process was incredible. They guided me through every step, from choosing the right program to settling into my new life in Tokyo."
     },
     {
       name: "Michael Chen",
       location: "University of Oxford, UK",
       program: "Business Administration",
       rating: 5,
-      comment: "The team at BideshStudy made my dream of studying in the UK come true. Their expertise and personalized guidance helped me find the perfect program. I couldn't have done it without them!"
+      comment: "The team at StudyinCanada.ID made my dream of studying in the UK come true. Their expertise and personalized guidance helped me find the perfect program. I couldn't have done it without them!"
     },
     {
       name: "Emma Rodriguez",
       location: "Universidad LCI Veritas, Costa Rica",
       program: "Sustainable Design",
       rating: 5,
-      comment: "I chose Costa Rica for my study abroad experience, and BideshStudy was there every step of the way. The cultural immersion and academic excellence I experienced exceeded all my expectations."
+      comment: "I chose Costa Rica for my study abroad experience, and StudyinCanada.ID was there every step of the way. The cultural immersion and academic excellence I experienced exceeded all my expectations."
     },
     {
       name: "David Kim",
       location: "Seoul National University, South Korea",
       program: "Computer Science",
       rating: 5,
-      comment: "The application process seemed daunting at first, but BideshStudy made it seamless. Their attention to detail and constant support ensured everything went smoothly. Highly recommend!"
+      comment: "The application process seemed daunting at first, but StudyinCanada.ID made it seamless. Their attention to detail and constant support ensured everything went smoothly. Highly recommend!"
     },
     {
       name: "Priya Patel",
       location: "University of Melbourne, Australia",
       program: "Public Health",
       rating: 5,
-      comment: "My experience with BideshStudy was exceptional. They helped me navigate the complex visa process and find scholarship opportunities. The quality of education I received was outstanding."
+      comment: "My experience with StudyinCanada.ID was exceptional. They helped me navigate the complex visa process and find scholarship opportunities. The quality of education I received was outstanding."
     },
     {
       name: "Ahmed Hassan",
       location: "Al Akhawayn University, Morocco",
       program: "International Studies",
       rating: 5,
-      comment: "BideshStudy provided comprehensive support from day one. Their local knowledge and connections made my transition to Morocco smooth and enjoyable. This experience transformed my perspective."
+      comment: "StudyinCanada.ID provided comprehensive support from day one. Their local knowledge and connections made my transition to Morocco smooth and enjoyable. This experience transformed my perspective."
     },
     {
       name: "Sophie Martin",
       location: "LCI Barcelona, Spain",
       program: "Fashion Design",
       rating: 5,
-      comment: "Studying fashion design in Barcelona was a dream come true! BideshStudy helped me find the perfect program that matched my interests and career goals. The support was incredible throughout."
+      comment: "Studying fashion design in Barcelona was a dream come true! StudyinCanada.ID helped me find the perfect program that matched my interests and career goals. The support was incredible throughout."
     },
     {
       name: "James Wilson",
       location: "University of Pécs, Hungary",
       program: "Medicine",
       rating: 5,
-      comment: "The team at BideshStudy was professional, responsive, and genuinely cared about my success. They made studying medicine abroad accessible and helped me every step of the way."
+      comment: "The team at StudyinCanada.ID was professional, responsive, and genuinely cared about my success. They made studying medicine abroad accessible and helped me every step of the way."
     },
     {
       name: "Maria Garcia",
       location: "Mahidol University, Thailand",
       program: "Public Health",
       rating: 5,
-      comment: "I couldn't be happier with my choice to study in Thailand through BideshStudy. They provided excellent guidance on program selection and cultural adaptation. Highly recommend their services!"
+      comment: "I couldn't be happier with my choice to study in Thailand through StudyinCanada.ID. They provided excellent guidance on program selection and cultural adaptation. Highly recommend their services!"
     },
     {
       name: "Liu Wei",
       location: "Tsinghua University, China",
       program: "Engineering",
       rating: 5,
-      comment: "BideshStudy made my journey to studying in China smooth and stress-free. Their expertise in Asian universities and their commitment to student success is truly remarkable."
+      comment: "StudyinCanada.ID made my journey to studying in China smooth and stress-free. Their expertise in Asian universities and their commitment to student success is truly remarkable."
     }
   ]
 
@@ -132,7 +132,7 @@ export default function ReviewsPage() {
               Student Reviews & Testimonials
             </h1>
             <p className="text-lg md:text-xl text-white/90 max-w-3xl mx-auto drop-shadow-md">
-              Discover what our students say about their study abroad journey with BideshStudy
+              Discover what our students say about their study abroad journey with StudyinCanada.ID
             </p>
           </div>
 

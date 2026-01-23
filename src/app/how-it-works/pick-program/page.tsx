@@ -19,7 +19,7 @@ import {
 } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "How to Pick a Program - BideshStudy",
+  title: "How to Pick a Program - StudyinCanada.ID",
   description: "Learn how to choose the perfect study abroad program for your goals, budget, and interests. Expert guide to finding your ideal study abroad experience.",
 }
 

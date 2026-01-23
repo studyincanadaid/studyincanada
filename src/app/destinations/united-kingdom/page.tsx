@@ -22,7 +22,7 @@ import ApplyNowButton from "@/components/ApplyNowButton"
 import ukImage from "@/assests/Image/ukImage.jpg"
 
 export const metadata: Metadata = {
-  title: "Study in United Kingdom - BideshStudy",
+  title: "Study in United Kingdom - StudyinCanada.ID",
   description: "Discover study abroad opportunities in the United Kingdom. Explore top universities and programs in UK.",
 }
 

@@ -34,7 +34,7 @@ import wasedaUniversity from "@/assests/UniversityFreeImage/wasedaUniversity.jpg
 import kyotoUniversity from "@/assests/UniversityFreeImage/kyotoUniversity.jpg"
 
 export const metadata: Metadata = {
-  title: "Study in China - BideshStudy",
+  title: "Study in China - StudyinCanada.ID",
   description: "Discover study abroad opportunities in China. Explore top universities and programs in China.",
 }
 

@@ -678,7 +678,7 @@ export default function Home() {
           <div className="relative w-full max-w-lg lg:max-w-xl xl:max-w-2xl aspect-square">
             <Image
               src={logo}
-              alt="BideshStudy Logo"
+              alt="StudyinCanada.ID Logo"
               fill
               className="object-contain"
               priority
