@@ -2066,10 +2066,6 @@
     background-color: #0d9488;
   }
 
-  .bg-\[\#282F4A\] {
-    background-color: #282f4a;
-  }
-
   .bg-\[\#22253D\] {
     background-color: #22253d;
   }
@@ -3750,13 +3746,6 @@
   @media (hover: hover) {
     .hover\:border-white:hover {
       border-color: var(--color-white);
-    }
-  }
-
-  @media (hover: hover) {
-    .hover\:bg-\[\#282F4A\]\/90:hover {
-      background-color: #282f4ae6;
-      background-color: lab(19.7412% 3.1973 -17.945 / .9);
     }
   }
 

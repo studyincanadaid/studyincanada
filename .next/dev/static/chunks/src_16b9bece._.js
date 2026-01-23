@@ -190,9 +190,9 @@ function AuthProvider({ children }) {
             setUser(data.user);
             setToken(data.token);
             if ("TURBOPACK compile-time truthy", 1) {
-                localStorage.setItem("bideshstudy_token", data.token);
-                localStorage.setItem("bideshstudy_user", JSON.stringify(data.user));
-                localStorage.setItem("bideshstudy_auth", "true");
+                localStorage.setItem("StudyinCanada.ID_token", data.token);
+                localStorage.setItem("StudyinCanada.ID_user", JSON.stringify(data.user));
+                localStorage.setItem("StudyinCanada.ID_auth", "true");
                 // Dispatch multiple events to ensure all components catch it
                 window.dispatchEvent(new Event("authStateChanged"));
                 window.dispatchEvent(new Event("localStorageChange"));
@@ -237,9 +237,9 @@ function AuthProvider({ children }) {
             setUser(data.user);
             setToken(data.token);
             if ("TURBOPACK compile-time truthy", 1) {
-                localStorage.setItem("bideshstudy_token", data.token);
-                localStorage.setItem("bideshstudy_user", JSON.stringify(data.user));
-                localStorage.setItem("bideshstudy_auth", "true");
+                localStorage.setItem("StudyinCanada.ID_token", data.token);
+                localStorage.setItem("StudyinCanada.ID_user", JSON.stringify(data.user));
+                localStorage.setItem("StudyinCanada.ID_auth", "true");
                 // Dispatch multiple events to ensure all components catch it
                 window.dispatchEvent(new Event("authStateChanged"));
                 window.dispatchEvent(new Event("localStorageChange"));
@@ -678,8 +678,8 @@ const Navbar = ()=>{
         // First check localStorage (updated immediately on login/signup)
         if ("TURBOPACK compile-time truthy", 1) {
             try {
-                const savedUser = localStorage.getItem("bideshstudy_user");
-                const savedToken = localStorage.getItem("bideshstudy_token");
+                const savedUser = localStorage.getItem("StudyinCanada.ID_user");
+                const savedToken = localStorage.getItem("StudyinCanada.ID_token");
                 if (savedToken && savedUser && savedUser !== "undefined" && savedUser !== "null") {
                     try {
                         const parsedUser = JSON.parse(savedUser);
@@ -735,7 +735,7 @@ const Navbar = ()=>{
             // Listen for storage changes (cross-tab sync)
             const handleStorageChange = {
                 "Navbar.useEffect.handleStorageChange": (e)=>{
-                    if (e.key === "bideshstudy_token" || e.key === "bideshstudy_user" || e.key === "bideshstudy_auth") {
+                    if (e.key === "StudyinCanada.ID_token" || e.key === "StudyinCanada.ID_user" || e.key === "StudyinCanada.ID_auth") {
                         updateAuthState();
                     }
                 }
@@ -815,8 +815,8 @@ const Navbar = ()=>{
     const checkAuth = ()=>{
         // Check localStorage directly (most reliable)
         if ("TURBOPACK compile-time truthy", 1) {
-            const savedToken = localStorage.getItem("bideshstudy_token");
-            const savedUser = localStorage.getItem("bideshstudy_user");
+            const savedToken = localStorage.getItem("StudyinCanada.ID_token");
+            const savedUser = localStorage.getItem("StudyinCanada.ID_user");
             if (savedToken && savedUser && savedUser !== "undefined" && savedUser !== "null") {
                 return true;
             }
@@ -832,8 +832,8 @@ const Navbar = ()=>{
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_39b5f7bf9254f45631682e0d132e5fc2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Navbar.useEffect": ()=>{
             if ("TURBOPACK compile-time truthy", 1) {
-                const savedUser = localStorage.getItem("bideshstudy_user");
-                const savedToken = localStorage.getItem("bideshstudy_token");
+                const savedUser = localStorage.getItem("StudyinCanada.ID_user");
+                const savedToken = localStorage.getItem("StudyinCanada.ID_token");
                 console.log("Navbar Auth Debug:", {
                     isAuthenticated,
                     currentUser: currentUser ? {
@@ -2479,7 +2479,7 @@ const Navbar = ()=>{
                                                 className: "relative w-10 h-10 md:w-12 md:h-12 flex-shrink-0",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_39b5f7bf9254f45631682e0d132e5fc2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_39b5f7bf9254f45631682e0d132e5fc2$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                     src: "/logo.svg",
-                                                    alt: "BideshStudy Logo",
+                                                    alt: "StudyinCanada.ID Logo",
                                                     fill: true,
                                                     className: "object-contain",
                                                     priority: true
@@ -4581,7 +4581,7 @@ const Footer = ()=>{
                                             className: "relative w-12 h-12 md:w-16 md:h-16 flex-shrink-0",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_39b5f7bf9254f45631682e0d132e5fc2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_39b5f7bf9254f45631682e0d132e5fc2$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                 src: "/logo.svg",
-                                                alt: "BideshStudy Logo",
+                                                alt: "StudyinCanada.ID Logo",
                                                 fill: true,
                                                 className: "object-contain",
                                                 priority: true

@@ -589,7 +589,7 @@ const Navbar = ()=>{
         window.addEventListener("authStateChanged", handleAuthChange);
         // Listen for storage changes (cross-tab sync)
         const handleStorageChange = (e)=>{
-            if (e.key === "bideshstudy_token" || e.key === "bideshstudy_user" || e.key === "bideshstudy_auth") {
+            if (e.key === "StudyinCanada.ID_token" || e.key === "StudyinCanada.ID_user" || e.key === "StudyinCanada.ID_auth") {
                 updateAuthState();
             }
         };
@@ -2205,7 +2205,7 @@ const Navbar = ()=>{
                                                 className: "relative w-10 h-10 md:w-12 md:h-12 flex-shrink-0",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_39b5f7bf9254f45631682e0d132e5fc2$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_39b5f7bf9254f45631682e0d132e5fc2$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                     src: "/logo.svg",
-                                                    alt: "BideshStudy Logo",
+                                                    alt: "StudyinCanada.ID Logo",
                                                     fill: true,
                                                     className: "object-contain",
                                                     priority: true
@@ -4279,7 +4279,7 @@ const Footer = ()=>{
                                             className: "relative w-12 h-12 md:w-16 md:h-16 flex-shrink-0",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_39b5f7bf9254f45631682e0d132e5fc2$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_$40$babel$2b$core$40$7$2e$2_39b5f7bf9254f45631682e0d132e5fc2$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                 src: "/logo.svg",
-                                                alt: "BideshStudy Logo",
+                                                alt: "StudyinCanada.ID Logo",
                                                 fill: true,
                                                 className: "object-contain",
                                                 priority: true
