@@ -734,101 +734,38 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              {
-                slug: "udayana-university-bali",
-                image: udayanaUniversity,
-                title: "Study Abroad at Udayana University in Bali",
-                duration: "Fall Semester, Spring Semester",
-                description: "Explore vibrant Bali while studying at Udayana University. Experience rich culture, stunning landscapes, and a unique academic journey in paradise.",
-                price: "Semester: $9,995"
-              },
-              {
-                slug: "lci-barcelona-spain",
-                image: lciBarcelona,
-                title: "Study Abroad at LCI Barcelona in Spain",
-                duration: "Fall Semester, Spring Semester",
-                description: "Discover exciting study abroad opportunities at LCI Barcelona. Immerse yourself in a vibrant culture while advancing your education in a dynamic environment.",
-                price: "Semester: $14,495"
-              },
-              {
-                slug: "university-of-pecs-hungary",
-                image: universityOfPecs,
-                title: "Study Abroad at University of Pécs in Hungary",
-                duration: "Fall Semester, Spring Semester, Summer Break",
-                description: "Explore exciting study abroad opportunities in Hungary at the University of Pecs. Immerse yourself in a vibrant culture while earning your degree.",
-                price: "Semester: $8,495"
-              },
-              {
-                slug: "universidad-lci-veritas-costa-rica",
-                image: universidadLCI,
-                title: "Study Abroad at Universidad LCI Veritas in Costa Rica",
-                duration: "Fall Semester, Spring Semester, Summer Break, Winter Break",
-                description: "Discover study abroad opportunities at Universidad LCI Veritas. Immerse yourself in vibrant culture, gain valuable experience, and enhance your education.",
-                price: "Semester: $10,995"
-              },
-              {
-                slug: "al-akhawayn-university-morocco",
-                image: alAkhawaynUniversity,
-                title: "Study Abroad at Al Akhawayn University in Morocco",
-                duration: "Fall Semester, Spring Semester",
-                description: "Discover the charm of Morocco while studying at Al Akhawayn University. Experience a unique blend of culture, education, and adventure in a stunning setting.",
-                price: "Semester: $10,995"
-              },
-              {
-                slug: "mahidol-university-thailand",
-                image: mahidolUniversity,
-                title: "Study Abroad at Mahidol University in Thailand",
-                duration: "Fall Semester, Spring Semester, Summer Break",
-                description: "Discover unique study abroad opportunities at Mahidol University International College in Thailand. Immerse yourself in vibrant culture and quality education.",
-                price: "Semester: $8,495"
+          <div className="relative w-full rounded-xl overflow-hidden border border-border/60">
+            <style>{`
+              .baserow-gallery-container {
+                position: relative;
+                width: 100%;
+                min-height: 800px;
               }
-            ].map((program, index) => (
-              <Link
-                key={index}
-                href={`/featured-programs/${program.slug}`}
-                className="group relative border border-border/60 rounded-xl overflow-hidden bg-background hover:border-primary/30 hover:shadow-xl transition-all duration-300 flex flex-col cursor-pointer transform hover:-translate-y-1"
-              >
-                <div className="relative w-full h-52 overflow-hidden">
-                  <Image
-                    src={program.image}
-                    alt={program.title}
-                    fill
-                    className="object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                </div>
-                <div className="p-6 flex flex-col flex-grow">
-                  <h3 className="text-xl font-bold text-[#424242] mb-2 group-hover:text-primary transition-colors duration-300">
-                    {program.title}
-                  </h3>
-                  <p className="text-sm text-muted-foreground mb-3 flex items-center gap-1">
-                    <span className="inline-block w-1.5 h-1.5 rounded-full bg-[#C8102E]"></span>
-                    {program.duration}
-                  </p>
-                  <p className="text-base text-[#424242] leading-relaxed mb-4 flex-grow line-clamp-2">
-                    {program.description}
-                  </p>
-                  <div className="mt-auto pt-4 border-t border-border/50">
-                    <button
-                      onClick={(e) => {
-                        e.preventDefault()
-                        const message = encodeURIComponent(
-                          `Hi StudyinCanada.ID, I'm interested in the following program:\n\n` +
-                          `Program: ${program.title}\n` +
-                          `Duration: ${program.duration}`
-                        )
-                        window.open(`https://wa.me/62881037405908?text=${message}`, '_blank')
-                      }}
-                      className="text-lg font-semibold text-white bg-red-600 hover:bg-red-700 px-4 py-2.5 rounded-lg inline-block transition-colors duration-300"
-                    >
-                      Request Info
-                    </button>
-                  </div>
-                </div>
-              </Link>
-            ))}
+              .baserow-gallery-container::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 60px;
+                background: linear-gradient(to bottom, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.5));
+                z-index: 10;
+                pointer-events: none;
+              }
+            `}</style>
+            <div className="baserow-gallery-container">
+              <iframe
+                src="https://students.studyincanada.id/public/gallery/QuIBQBd-p9P0S6Fvi_U928Hnk30RuTUP3DieobeDXoE"
+                style={{
+                  width: '100%',
+                  height: '800px',
+                  border: 'none',
+                  borderRadius: '0.75rem',
+                  display: 'block'
+                }}
+                title="Featured Study Abroad Programs Gallery"
+              />
+            </div>
           </div>
         </div>
       </section>

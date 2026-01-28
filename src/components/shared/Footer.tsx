@@ -47,13 +47,18 @@ const Footer = () => {
               <div className="space-y-2 md:space-y-3 relative">
                 <h3 className="text-base md:text-lg font-bold text-foreground">CONTACT US</h3>
                 <div className="space-y-2">
-                  <p className="text-muted-foreground text-sm md:text-base flex items-center gap-2">
+                  <Link 
+                    href="https://wa.me/62881037405908" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2 text-sm md:text-base"
+                  >
                     <Phone className="h-4 w-4" />
-                    +8801300981501
-                  </p>
+                    +62 881-0374-05908
+                  </Link>
                   <p className="text-muted-foreground text-xs md:text-base flex items-center gap-2">
                     <Mail className="h-4 w-4" />
-                    info@studyincanada.id
+                    yasintha@studyincanada.id
                   </p>
                 </div>
                 <div className="absolute right-0 top-6 md:top-2 bottom-0 w-px bg-border"></div>
@@ -186,7 +191,7 @@ const Footer = () => {
                   onCheckedChange={setConsentChecked}
                 />
                 <label htmlFor="newsletterConsent" className="text-sm text-foreground leading-relaxed cursor-pointer">
-                  <span className="text-destructive">*</span> By checking this box, I consent to StudyAbroad.com collecting and storing my data through the submission of this form, sending marketing communications, and I agree to the StudyAbroad.com Privacy Policy.
+                  <span className="text-destructive">*</span> By checking this box, I consent to studyincanada.id collecting and storing my data through the submission of this form, sending marketing communications, and I agree to the studyincanada.id Privacy Policy.
                 </label>
               </div>
 
